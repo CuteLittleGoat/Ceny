@@ -22,15 +22,10 @@ def append_rows(rows):
     with DATA_PRICES.open('a',encoding='utf-8',newline='') as f: csv.DictWriter(f,fieldnames=FIELDS).writerows(rows)
 
 
-def parse_xkom(url:str)->dict:
-    req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; CenyBot/1.0; +https://example.local)"})
-    with urlopen(req, timeout=20) as r:
-        html=r.read().decode('utf-8','ignore')
-    m=re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
-    if not m:
-        raise ValueError('Brak JSON-LD')
+
+
+def _extract_product_jsonld(html:str)->dict:
     blobs=re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
-    product=None
     for b in blobs:
         try:
             j=json.loads(b)
@@ -39,12 +34,14 @@ def parse_xkom(url:str)->dict:
         candidates=j if isinstance(j,list) else [j]
         for c in candidates:
             if isinstance(c,dict) and c.get('@type')=='Product' and c.get('offers'):
-                product=c
-                break
-        if product:
-            break
-    if not product:
-        raise ValueError('Brak Product JSON-LD')
+                return c
+    raise ValueError('Brak Product JSON-LD')
+
+def parse_xkom(url:str)->dict:
+    req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; CenyBot/1.0; +https://example.local)"})
+    with urlopen(req, timeout=20) as r:
+        html=r.read().decode('utf-8','ignore')
+    product=_extract_product_jsonld(html)
     offers=product.get('offers',{})
     if isinstance(offers,list):
         offers=offers[0] if offers else {}
@@ -60,6 +57,31 @@ def parse_xkom(url:str)->dict:
         'seller': 'x-kom'
     }
 
+
+
+
+def parse_morele(url:str)->dict:
+    req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; CenyBot/1.0; +https://example.local)"})
+    with urlopen(req, timeout=20) as r:
+        html=r.read().decode('utf-8','ignore')
+    product=_extract_product_jsonld(html)
+    offers=product.get('offers',{})
+    if isinstance(offers,list): offers=offers[0] if offers else {}
+    price=offers.get('price')
+    if price is None: raise ValueError('Brak ceny')
+    avail=str(offers.get('availability',''))
+    availability='in_stock' if 'InStock' in avail else ('out_of_stock' if 'OutOfStock' in avail else 'unknown')
+    return {'price_current': float(str(price).replace(',','.')), 'currency': offers.get('priceCurrency','PLN'), 'availability': availability, 'seller': 'Morele'}
+
+
+def parse_rtv_euro_agd(url:str)->dict:
+    req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; CenyBot/1.0; +https://example.local)"})
+    with urlopen(req, timeout=20) as r:
+        html=r.read().decode('utf-8','ignore')
+    m=re.search(r'"price"\s*:\s*"([0-9.,]+)"', html)
+    if not m: raise ValueError('Brak ceny')
+    avail='in_stock' if re.search(r'(Dostępny|InStock)', html, re.I) else 'unknown'
+    return {'price_current': float(m.group(1).replace(',','.')), 'currency': 'PLN', 'availability': avail, 'seller': 'RTV Euro AGD'}
 
 def main():
     now=datetime.now(timezone.utc)
@@ -79,6 +101,10 @@ def main():
             try:
                 if src['store_id']=='x-kom':
                     parsed=parse_xkom(src['url'])
+                elif src['store_id']=='morele':
+                    parsed=parse_morele(src['url'])
+                elif src['store_id']=='rtv-euro-agd':
+                    parsed=parse_rtv_euro_agd(src['url'])
                 else:
                     raise NotImplementedError('Scraper for store not implemented')
             except (URLError, HTTPError, TimeoutError) as e:
