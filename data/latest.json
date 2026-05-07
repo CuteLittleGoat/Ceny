@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-05-07T11:08:53.558261+00:00",
+  "items": [
+    {
+      "display_order": 1,
+      "model_id": "poco-f8-pro-12-512",
+      "model_name": "POCO F8 Pro",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 2,
+      "model_id": "poco-f8-ultra-12-512",
+      "model_name": "POCO F8 Ultra",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 3,
+      "model_id": "poco-f7-ultra-12-512",
+      "model_name": "POCO F7 Ultra",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 4,
+      "model_id": "poco-f7-pro-12-512",
+      "model_name": "POCO F7 Pro",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 5,
+      "model_id": "poco-f7-12-512",
+      "model_name": "POCO F7",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 6,
+      "model_id": "poco-x7-pro-12-512",
+      "model_name": "POCO X7 Pro",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 7,
+      "model_id": "oneplus-nord-4-12-256",
+      "model_name": "OnePlus Nord 4",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 8,
+      "model_id": "poco-f6-pro-12-512",
+      "model_name": "POCO F6 Pro",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 9,
+      "model_id": "poco-f6-12-512",
+      "model_name": "POCO F6",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 10,
+      "model_id": "realme-14-pro-plus-12-512",
+      "model_name": "realme 14 Pro+",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 11,
+      "model_id": "xiaomi-13t-8-256",
+      "model_name": "Xiaomi 13T",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 12,
+      "model_id": "samsung-galaxy-a56-8-256",
+      "model_name": "Samsung Galaxy A56",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 13,
+      "model_id": "nothing-phone-3a-12-256",
+      "model_name": "Nothing Phone (3a)",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 14,
+      "model_id": "redmi-note-14-pro-plus-5g-12-512",
+      "model_name": "Redmi Note 14 Pro+ 5G",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 15,
+      "model_id": "motorola-edge-50-neo-12-512",
+      "model_name": "Motorola Edge 50 Neo",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    },
+    {
+      "display_order": 16,
+      "model_id": "poco-x7-12-512",
+      "model_name": "POCO X7",
+      "best_price": null,
+      "best_store": null,
+      "last_success_at": null
+    }
+  ]
+}
