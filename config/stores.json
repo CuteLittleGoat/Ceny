@@ -1,0 +1,22 @@
+[
+  {"store_id":"x-kom","store_name":"x-kom","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"rtv-euro-agd","store_name":"RTV Euro AGD","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"komputronik","store_name":"Komputronik","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"morele","store_name":"Morele","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"neonet","store_name":"Neonet","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"oleole","store_name":"OleOle!","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"avans","store_name":"Avans","source_type":"retail","scrape_enabled":true,"status":"ok"},
+  {"store_id":"mi-home","store_name":"Mi-Home.pl","source_type":"official","scrape_enabled":true,"status":"ok"},
+  {"store_id":"mi-com","store_name":"Mi.com Polska","source_type":"official","scrape_enabled":false,"status":"requires_javascript"},
+  {"store_id":"mi-store","store_name":"Mi-Store.pl","source_type":"official","scrape_enabled":true,"status":"ok"},
+  {"store_id":"samsung-pl","store_name":"Samsung.com/pl","source_type":"official","scrape_enabled":true,"status":"ok"},
+  {"store_id":"nothing-pl","store_name":"Nothing.tech PL","source_type":"official","scrape_enabled":true,"status":"ok"},
+  {"store_id":"oneplus-pl","store_name":"OnePlus.com/pl","source_type":"official","scrape_enabled":false,"status":"manual_review"},
+  {"store_id":"amazon-pl","store_name":"Amazon.pl","source_type":"marketplace","scrape_enabled":false,"status":"marketplace"},
+  {"store_id":"allegro","store_name":"Allegro","source_type":"marketplace","scrape_enabled":false,"status":"marketplace"},
+  {"store_id":"ceneo","store_name":"Ceneo","source_type":"control","scrape_enabled":false,"status":"do_not_scrape"},
+  {"store_id":"skapiec","store_name":"Skąpiec","source_type":"control","scrape_enabled":false,"status":"do_not_scrape"},
+  {"store_id":"pepper","store_name":"Pepper","source_type":"control","scrape_enabled":false,"status":"do_not_scrape"},
+  {"store_id":"media-markt","store_name":"Media Markt","source_type":"retail","scrape_enabled":false,"status":"manual_review"},
+  {"store_id":"media-expert","store_name":"Media Expert","source_type":"retail","scrape_enabled":false,"status":"blocked_or_unreliable"}
+]
