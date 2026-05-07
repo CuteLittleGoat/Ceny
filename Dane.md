@@ -112,7 +112,7 @@ Przykład:
   "ram_gb": 12,
   "storage_gb": 512
 }
-
+```
 6. Zasada dotycząca kolorów
 
 Kolory traktujemy jako ten sam model.
