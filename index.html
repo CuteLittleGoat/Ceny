@@ -4,12 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Porównanie cen telefonów</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="docs/styles.css" />
 </head>
 <body>
   <main>
     <h1>Porównanie cen telefonów</h1>
     <p class="muted">Porównanie dotyczy zakupu telefonu bez ofert operatorów komórkowych.</p>
+
+    <section>
+      <p><strong>Liczba modeli:</strong> <span id="models-count">-</span></p>
+      <p><strong>Ostatnia aktualizacja:</strong> <span id="generated-at">-</span></p>
+    </section>
+
     <table id="prices-table">
       <thead>
         <tr>
@@ -19,6 +25,6 @@
       <tbody></tbody>
     </table>
   </main>
-  <script src="app.js"></script>
+  <script src="docs/app.js"></script>
 </body>
 </html>
