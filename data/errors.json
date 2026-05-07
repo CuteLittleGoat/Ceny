@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T13:53:43.083427+00:00",
+  "generated_at": "2026-05-07T19:55:19.211457+00:00",
   "errors": [
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f8-pro-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f8-pro/",
@@ -10,7 +10,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f8-ultra-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f8-ultra/",
@@ -18,7 +18,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f7-ultra-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f7-ultra/",
@@ -26,7 +26,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f7-pro-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f7-pro/",
@@ -34,7 +34,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f7-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f7/",
@@ -42,7 +42,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-x7-pro-12-512",
       "store_id": "x-kom",
       "url": "https://www.x-kom.pl/p/1306175-smartfon-telefon-xiaomi-poco-x7-pro-12-512gb-black.html",
@@ -50,7 +50,7 @@
       "error_message": "HTTP Error 403: Forbidden"
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "oneplus-nord-4-12-256",
       "store_id": "oneplus-pl",
       "url": "https://www.oneplus.com/pl/oneplus-nord-4",
@@ -58,7 +58,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f6-pro-12-512",
       "store_id": "x-kom",
       "url": "https://www.x-kom.pl/p/1246220-smartfon-telefon-xiaomi-poco-f6-pro-12gb-512gb-white.html",
@@ -66,7 +66,7 @@
       "error_message": "HTTP Error 403: Forbidden"
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-f6-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f6/",
@@ -74,7 +74,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "realme-14-pro-plus-12-512",
       "store_id": "media-expert",
       "url": "https://www.realme.com/pl/realme-14-pro-plus",
@@ -82,7 +82,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "xiaomi-13t-8-256",
       "store_id": "x-kom",
       "url": "https://www.x-kom.pl/p/1179168-smartfon-telefon-xiaomi-13t-8-256gb-black.html",
@@ -90,7 +90,7 @@
       "error_message": "HTTP Error 403: Forbidden"
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "samsung-galaxy-a56-8-256",
       "store_id": "samsung-pl",
       "url": "https://www.samsung.com/pl/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-256gb-sm-a566bzkeeee/",
@@ -98,7 +98,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "nothing-phone-3a-12-256",
       "store_id": "nothing-pl",
       "url": "https://nothing.tech/products/phone-3a",
@@ -106,7 +106,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/redmi-note-14-pro-plus-5g/",
@@ -114,7 +114,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "motorola-edge-50-neo-12-512",
       "store_id": "media-expert",
       "url": "https://www.motorola.com/pl/smartphones-motorola-edge-50-neo/p",
@@ -122,7 +122,7 @@
       "error_message": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
     },
     {
-      "timestamp": "2026-05-07T13:53:43.083427+00:00",
+      "timestamp": "2026-05-07T19:55:19.211457+00:00",
       "model_id": "poco-x7-12-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-x7/",
