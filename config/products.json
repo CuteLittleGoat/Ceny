@@ -14,8 +14,8 @@
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "future_or_not_yet_available",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "not_found",
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -34,8 +34,8 @@
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "future_or_not_yet_available",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "not_found",
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -55,7 +55,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -75,7 +75,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -95,7 +95,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -110,12 +110,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1306175-smartfon-telefon-xiaomi-poco-x7-pro-12-512gb-black.html",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -135,7 +135,7 @@
         "variant_label": "12/256 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -150,12 +150,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1246220-smartfon-telefon-xiaomi-poco-f6-pro-12gb-512gb-white.html",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -175,7 +175,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -195,7 +195,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   },
@@ -210,12 +210,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1179168-smartfon-telefon-xiaomi-13t-8-256gb-black.html",
         "color": null,
         "variant_label": "8/256 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -230,12 +230,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1313817-smartfon-telefon-samsung-galaxy-a56-5g-8-256gb-zielony.html",
         "color": null,
         "variant_label": "8/256 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -250,12 +250,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1319517-smartfon-telefon-nothing-phone-3a-5g-12-256gb-black-120hz.html",
         "color": null,
         "variant_label": "12/256 GB",
-        "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom."
       }
     ]
   },
@@ -270,12 +270,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1308438-smartfon-telefon-xiaomi-redmi-note-14-pro-5g-12-512gb-frost-blue.html",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -290,12 +290,12 @@
       {
         "store_id": "x-kom",
         "store_name": "x-kom",
-        "url": null,
+        "url": "https://www.x-kom.pl/p/1276119-smartfon-telefon-motorola-edge-50-neo-5g-12-512gb-latte-120hz.html",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
       }
     ]
   },
@@ -315,7 +315,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
       }
     ]
   }
