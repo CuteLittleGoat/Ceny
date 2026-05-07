@@ -8,14 +8,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f8-pro/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -28,14 +28,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f8-ultra/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -48,14 +48,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f7-ultra/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -68,14 +68,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f7-pro/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -88,14 +88,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f7/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -113,9 +113,9 @@
         "url": "https://www.x-kom.pl/p/1306175-smartfon-telefon-xiaomi-poco-x7-pro-12-512gb-black.html",
         "color": null,
         "variant_label": "12/512 GB",
-        "scrape_enabled": false,
+        "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
       }
     ]
   },
@@ -128,14 +128,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "oneplus-pl",
+        "store_name": "OnePlus.com/pl",
+        "url": "https://www.oneplus.com/pl/oneplus-nord-4",
         "color": null,
         "variant_label": "12/256 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -153,9 +153,9 @@
         "url": "https://www.x-kom.pl/p/1246220-smartfon-telefon-xiaomi-poco-f6-pro-12gb-512gb-white.html",
         "color": null,
         "variant_label": "12/512 GB",
-        "scrape_enabled": false,
+        "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
       }
     ]
   },
@@ -168,14 +168,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-f6/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -188,14 +188,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "media-expert",
+        "store_name": "Media Expert",
+        "url": "https://www.realme.com/pl/realme-14-pro-plus",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -213,9 +213,9 @@
         "url": "https://www.x-kom.pl/p/1179168-smartfon-telefon-xiaomi-13t-8-256gb-black.html",
         "color": null,
         "variant_label": "8/256 GB",
-        "scrape_enabled": false,
+        "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
       }
     ]
   },
@@ -228,14 +228,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": "https://www.x-kom.pl/p/1313817-smartfon-telefon-samsung-galaxy-a56-5g-8-256gb-zielony.html",
+        "store_id": "samsung-pl",
+        "store_name": "Samsung.com/pl",
+        "url": "https://www.samsung.com/pl/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-256gb-sm-a566bzkeeee/",
         "color": null,
         "variant_label": "8/256 GB",
         "scrape_enabled": false,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -248,14 +248,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": "https://www.x-kom.pl/p/1319517-smartfon-telefon-nothing-phone-3a-5g-12-256gb-black-120hz.html",
+        "store_id": "nothing-pl",
+        "store_name": "Nothing.tech PL",
+        "url": "https://nothing.tech/products/phone-3a",
         "color": null,
         "variant_label": "12/256 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom."
+        "scrape_enabled": false,
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -268,14 +268,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": "https://www.x-kom.pl/p/1308438-smartfon-telefon-xiaomi-redmi-note-14-pro-5g-12-512gb-frost-blue.html",
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/redmi-note-14-pro-plus-5g/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -288,14 +288,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": "https://www.x-kom.pl/p/1276119-smartfon-telefon-motorola-edge-50-neo-5g-12-512gb-latte-120hz.html",
+        "store_id": "media-expert",
+        "store_name": "Media Expert",
+        "url": "https://www.motorola.com/pl/smartphones-motorola-edge-50-neo/p",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; scraping włączony tylko dla pilotażu parsera."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   },
@@ -308,14 +308,14 @@
     "colors_as_same_model": true,
     "sources": [
       {
-        "store_id": "x-kom",
-        "store_name": "x-kom",
-        "url": null,
+        "store_id": "mi-com",
+        "store_name": "Mi.com Polska",
+        "url": "https://www.mi.com/pl/product/poco-x7/",
         "color": null,
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
-        "status": "not_found",
-        "notes": "Brak jednoznacznie zweryfikowanej karty produktu x-kom."
+        "status": "manual_review",
+        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
       }
     ]
   }
