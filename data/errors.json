@@ -1,4 +1,133 @@
 {
-  "generated_at": "2026-05-07T11:08:53.558261+00:00",
-  "errors": []
+  "generated_at": "2026-05-07T13:31:49.974918+00:00",
+  "errors": [
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f8-pro-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "future_or_not_yet_available",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f8-ultra-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "future_or_not_yet_available",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f7-ultra-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f7-pro-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f7-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-x7-pro-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "oneplus-nord-4-12-256",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f6-pro-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-f6-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "realme-14-pro-plus-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "xiaomi-13t-8-256",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "samsung-galaxy-a56-8-256",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "nothing-phone-3a-12-256",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "redmi-note-14-pro-plus-5g-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "motorola-edge-50-neo-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    },
+    {
+      "timestamp": "2026-05-07T13:31:49.974918+00:00",
+      "model_id": "poco-x7-12-512",
+      "store_id": "x-kom",
+      "url": null,
+      "error_type": "not_found",
+      "error_message": "Brak jednoznacznej karty produktu w etapie MVP."
+    }
+  ]
 }

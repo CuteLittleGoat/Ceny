@@ -6,7 +6,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "future_or_not_yet_available",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 2,
@@ -15,7 +26,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "future_or_not_yet_available",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 3,
@@ -24,7 +46,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 4,
@@ -33,7 +66,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 5,
@@ -42,7 +86,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 6,
@@ -51,7 +106,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 7,
@@ -60,7 +126,18 @@
     "ram_gb": 12,
     "storage_gb": 256,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/256 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 8,
@@ -69,7 +146,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 9,
@@ -78,7 +166,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 10,
@@ -87,7 +186,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 11,
@@ -96,7 +206,18 @@
     "ram_gb": 8,
     "storage_gb": 256,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "8/256 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 12,
@@ -105,7 +226,18 @@
     "ram_gb": 8,
     "storage_gb": 256,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "8/256 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 13,
@@ -114,7 +246,18 @@
     "ram_gb": 12,
     "storage_gb": 256,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/256 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 14,
@@ -123,7 +266,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 15,
@@ -132,7 +286,18 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   },
   {
     "display_order": 16,
@@ -141,6 +306,17 @@
     "ram_gb": 12,
     "storage_gb": 512,
     "colors_as_same_model": true,
-    "sources": []
+    "sources": [
+      {
+        "store_id": "x-kom",
+        "store_name": "x-kom",
+        "url": null,
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "not_found",
+        "notes": "Brak jednoznacznej karty produktu w etapie MVP."
+      }
+    ]
   }
 ]
