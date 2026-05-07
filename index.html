@@ -5,25 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Porównanie cen telefonów</title>
   <link rel="stylesheet" href="docs/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <main>
-    <h1>Porównanie cen telefonów</h1>
-    <p class="muted">Porównanie dotyczy zakupu telefonu bez ofert operatorów komórkowych.</p>
+  <main class="container">
+    <header class="hero">
+      <h1>Porównanie cen telefonów</h1>
+      <p class="muted">Ceny zakupu bez abonamentu i ofert operatorów.</p>
+      <div class="meta-grid">
+        <div><span>Ostatnia aktualizacja</span><strong id="generated-at">-</strong></div>
+        <div><span>Monitorowane modele</span><strong id="models-count">-</strong></div>
+        <div><span>Modele z ceną</span><strong id="models-with-data">-</strong></div>
+        <div><span>Źródła/sklepy</span><strong id="sources-count">-</strong></div>
+      </div>
+    </header>
 
-    <section>
-      <p><strong>Liczba modeli:</strong> <span id="models-count">-</span></p>
-      <p><strong>Ostatnia aktualizacja:</strong> <span id="generated-at">-</span></p>
+    <section id="cards" class="cards"></section>
+
+    <section class="filters">
+      <input id="search" type="search" placeholder="Szukaj modelu..." />
+      <select id="store-filter"></select>
+      <select id="status-filter">
+        <option value="all">Wszystkie</option>
+        <option value="with_price">Z ceną</option>
+        <option value="no_data">Bez danych</option>
+        <option value="error">Problem z odczytem</option>
+      </select>
+      <select id="sort-by">
+        <option value="display_order">Kolejność domyślna</option>
+        <option value="best_price">Najniższa cena</option>
+        <option value="price_change">Największy spadek</option>
+        <option value="model_name">Nazwa modelu</option>
+      </select>
     </section>
 
-    <table id="prices-table">
-      <thead>
-        <tr>
-          <th>Kolejność</th><th>Model</th><th>Najniższa cena</th><th>Sklep</th><th>Ostatni odczyt</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <section class="table-wrap">
+      <table id="prices-table">
+        <thead><tr><th>Model</th><th>RAM / pamięć</th><th>Najniższa cena</th><th>Sklep</th><th>Zmiana</th><th>Min.</th><th>Max.</th><th>Dostępność</th><th>Ostatni odczyt</th><th>Link</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="chart-panel">
+      <h2>Historia cen</h2>
+      <select id="chart-model"></select>
+      <p id="chart-empty" class="muted hidden">Brak historii cen. Dane pojawią się po pierwszym poprawnym odczycie.</p>
+      <canvas id="history-chart" height="120"></canvas>
+    </section>
   </main>
   <script src="docs/app.js"></script>
 </body>
