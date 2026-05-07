@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T13:31:49.974918+00:00",
+  "generated_at": "2026-05-07T13:46:18.179346+00:00",
   "items": [
     {
       "display_order": 1,
@@ -22,7 +22,7 @@
       "sources_checked": 1,
       "sources_ok": 0,
       "sources_failed": 1,
-      "status": "future_or_not_yet_available"
+      "status": "no_data"
     },
     {
       "display_order": 2,
@@ -45,7 +45,7 @@
       "sources_checked": 1,
       "sources_ok": 0,
       "sources_failed": 1,
-      "status": "future_or_not_yet_available"
+      "status": "no_data"
     },
     {
       "display_order": 3,
