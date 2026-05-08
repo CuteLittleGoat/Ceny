@@ -20,7 +20,15 @@ MAX_PRICE=20000
 SUSPICIOUS={0,1,72,99,181089,226934}
 PRIORITY={k:i for i,k in enumerate(['mi-com','mi-home','mi-store','media-expert','media-markt','rtv-euro-agd','morele','x-kom'])}
 HEADERS={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36","Accept-Language":"pl-PL,pl;q=0.9,en;q=0.8"}
-TARGET_PLAYWRIGHT={'mi-com','mi-home','mi-store','media-expert','media-markt'}
+TARGET_PLAYWRIGHT={
+    'mi-com',
+    'mi-home',
+    'mi-store',
+    'media-expert',
+    'media-markt',
+    'rtv-euro-agd',
+    'x-kom',
+}
 
 FIELDS=["timestamp","date","display_order","model_id","model_name","store_id","store_name","price_current","price_regular","price_lowest_30_days","currency","availability","color","source_url","seller","is_marketplace","status","notes"]
 
@@ -203,9 +211,22 @@ def model_matches(product, parsed, html):
     tokens=[t for t in re.split(r'\W+',model) if len(t)>=2 and t not in {'xiaomi','smartfon','phone','redmi','poco'}]
     hit=sum(1 for t in tokens if t in txt)
     ram,sto=product.get('ram_gb'),product.get('storage_gb')
-    variant_ok = bool(re.search(fr'\b{ram}\s*(gb)?\s*[/\-]\s*{sto}\s*(gb)?\b',txt) or re.search(fr'\b{ram}\s*gb\b.*\b{sto}\s*gb\b',txt)) if ram and sto else True
+    if ram and sto:
+        variant_patterns = [
+            fr'\b{ram}\s*(gb)?\s*[/\-]\s*{sto}\s*(gb)?\b',
+            fr'\b{ram}\s*gb\s*[/\-]\s*{sto}\s*gb\b',
+            fr'\b{ram}\s*gb\b.*\b{sto}\s*gb\b',
+            fr'\b{ram}\s*[/\-]\s*{sto}\s*gb\b',
+        ]
+        variant_ok = any(re.search(pat, txt) for pat in variant_patterns)
+    else:
+        variant_ok = True
     accessory=any(k in txt for k in ['etui','case','szklo','folia','ladowarka','kabel','abonament'])
-    return (hit>=max(2, int(len(tokens)*0.6)) and variant_ok and not accessory)
+    if not tokens:
+        return False
+
+    required_hit = min(len(tokens), max(2, int(len(tokens) * 0.6)))
+    return (hit >= required_hit and variant_ok and not accessory)
 
 def parse_mi(html): return parse_store(html,'Mi.com Polska')
 def parse_media_expert(html): return parse_store(html,'Media Expert')
@@ -232,23 +253,56 @@ def main():
             elif sid not in PARSERS: status='parser_not_implemented'
             elif not url: status='price_missing'; msg='missing url'
             else:
-                html,fs,fe,http_status=fetch_http(url)
-                if html is None: status=fs; msg=fe or ''
+                html, fs, fe, http_status = fetch_http(url)
+
+                # Jeżeli zwykły requests nie pobrał strony, spróbuj Playwrighta dla sklepów,
+                # które są oznaczone jako wymagające/przydatne dla headless browsera.
+                if html is None and sid in TARGET_PLAYWRIGHT and fs in {'http_403_blocked', 'network_error'}:
+                    html2, fs2, fe2, _ = fetch_playwright(url)
+                    fetch_method = 'playwright'
+                    if html2 is not None:
+                        html = html2
+                        status = 'ok'
+                        msg = ''
+                    else:
+                        status = fs2
+                        msg = fe2 or fe or ''
                 else:
-                    parsed=PARSERS[sid](html); parsed_name=parsed.get('product_name'); price=parse_price(parsed.get('price_current')); avail=normalize_availability(parsed.get('availability')); extracted_raw=parsed.get('price_current')
-                    if price is None and sid in TARGET_PLAYWRIGHT:
-                        html2,fs2,fe2,_=fetch_playwright(url); fetch_method='playwright'
+                    if html is None:
+                        status = fs
+                        msg = fe or ''
+
+                if html is not None and status == 'ok':
+                    parsed = PARSERS[sid](html)
+                    parsed_name = parsed.get('product_name')
+                    price = parse_price(parsed.get('price_current'))
+                    avail = normalize_availability(parsed.get('availability'))
+                    extracted_raw = parsed.get('price_current')
+
+                    # Drugi fallback: jeśli strona została pobrana przez requests, ale parser nie znalazł ceny,
+                    # spróbuj Playwrighta, bo cena może być dogrywana JavaScriptem.
+                    if price is None and sid in TARGET_PLAYWRIGHT and fetch_method != 'playwright':
+                        html2, fs2, fe2, _ = fetch_playwright(url)
+                        fetch_method = 'playwright'
                         if html2 is not None:
-                            parsed=PARSERS[sid](html2); parsed_name=parsed.get('product_name'); price=parse_price(parsed.get('price_current')); avail=normalize_availability(parsed.get('availability')); extracted_raw=parsed.get('price_current')
-                        else: status=fs2; msg=fe2 or ''
-                    if status=='ok':
+                            html = html2
+                            parsed = PARSERS[sid](html)
+                            parsed_name = parsed.get('product_name')
+                            price = parse_price(parsed.get('price_current'))
+                            avail = normalize_availability(parsed.get('availability'))
+                            extracted_raw = parsed.get('price_current')
+                        else:
+                            status = fs2
+                            msg = fe2 or ''
+
+                    if status == 'ok':
                         if avail=='withdrawn': status='withdrawn'
                         elif price is None and avail=='out_of_stock': status='out_of_stock'
                         elif price is None: status='price_missing'
                         elif not model_matches(p,parsed,html): status='product_mismatch'
                         elif not validate_price(price): status='suspicious_price'
                         else:
-                            row={"timestamp":now,"date":day,"display_order":p['display_order'],"model_id":p['model_id'],"model_name":p['model_name'],"store_id":sid,"store_name":st_name,"price_current":price,"price_regular":parsed.get('price_regular'),"price_lowest_30_days":parsed.get('price_lowest_30_days'),"currency":parsed.get('currency') or 'PLN',"availability":avail,"color":s.get('color'),"source_url":url,"seller":parsed.get('seller') or st_name,"is_marketplace":store.get('source_type')=='marketplace',"status":'ok',"notes":f'parser:{sid};src:{parsed.get("raw_source")}' }
+                            row={"timestamp":now,"date":day,"display_order":p['display_order'],"model_id":p['model_id'],"model_name":p['model_name'],"store_id":sid,"store_name":st_name,"price_current":price,"price_regular":parsed.get('price_regular'),"price_lowest_30_days":parsed.get('price_lowest_30_days'),"currency":parsed.get('currency') or 'PLN',"availability":avail,"color":s.get('color'),"source_url":url,"seller":parsed.get('seller') or st_name,"is_marketplace":store.get('source_type')=='marketplace',"status":'ok',"notes":f'parser:{sid};src:{parsed.get("raw_source")};fetch:{fetch_method}' }
                             new.append(row); offers.append(row)
             if status!='ok': errs.append({"timestamp":now,"model_id":p['model_id'],"model_name":p['model_name'],"store_id":sid,"store_name":st_name,"url":url,"error_type":status,"error_message":msg or status,"status":status,"parser_name":parser_name,"fetch_method":fetch_method,"http_status":http_status,"product_name":parsed_name,"extracted_price_raw":extracted_raw})
             summary.append({'store_id':sid,'store_name':st_name,'status':status,'price':price,'availability':avail,'url':url})
