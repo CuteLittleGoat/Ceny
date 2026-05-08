@@ -250,32 +250,32 @@
       {
         "store_id": "media-expert",
         "store_name": "Media Expert",
-        "url": "https://www.realme.com/pl/realme-14-pro-plus",
-        "color": null,
+        "url": "https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-realme-14-pro-12-gb-512-gb-5g-czarny",
+        "color": "czarny",
         "variant_label": "12/512 GB",
-        "scrape_enabled": false,
-        "status": "manual_review",
-        "notes": "URL prowadzi do oficjalnej strony realme, nie do Media Expert; wymaga poprawienia store_id albo podmiany URL."
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Media Expert dla realme 14 Pro+ 12/512 GB; parser aktywny."
       },
       {
         "store_id": "morele",
         "store_name": "Morele",
-        "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-fioletowy-rmx5051-15416572/",
-        "color": "fioletowy",
+        "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-czarny-631011004924-14754376/",
+        "color": "czarny",
         "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+        "notes": "Zweryfikowana karta produktu Morele dla realme 14 Pro+ 12/512 GB; parser aktywny."
       },
       {
         "store_id": "rtv-euro-agd",
         "store_name": "RTV Euro AGD",
-        "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-plus-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml",
         "color": "szary",
         "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD dla realme 14 Pro+ 12/512 GB; parser aktywny."
       }
     ]
   },
@@ -398,6 +398,36 @@
     "colors_as_same_model": true,
     "sources": [
       {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele dla Redmi Note 14 Pro+ 5G 12/512 GB; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-czarny.bhtml",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD dla Redmi Note 14 Pro+ 5G 12/512 GB; parser aktywny."
+      },
+      {
+        "store_id": "media-expert",
+        "store_name": "Media Expert",
+        "url": "https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-czarny",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Media Expert dla Redmi Note 14 Pro+ 5G 12/512 GB; parser aktywny."
+      },
+      {
         "store_id": "mi-com",
         "store_name": "Mi.com Polska",
         "url": "https://www.mi.com/pl/product/redmi-note-14-pro-plus-5g/",
@@ -405,27 +435,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
-      },
-      {
-        "store_id": "morele",
-        "store_name": "Morele",
-        "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-mzb0i9leu-15364996/",
-        "color": "czarny",
-        "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
-      },
-      {
-        "store_id": "rtv-euro-agd",
-        "store_name": "RTV Euro AGD",
-        "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-fioletowy.bhtml",
-        "color": "fioletowy",
-        "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "notes": "Oficjalna strona produktu Redmi Note 14 Pro+ 5G; zostawiono nieaktywną, bo to źródło oficjalne i parser Mi.com wymaga osobnej weryfikacji."
       }
     ]
   },
@@ -440,22 +450,22 @@
       {
         "store_id": "media-expert",
         "store_name": "Media Expert",
-        "url": "https://www.motorola.com/pl/smartphones-motorola-edge-50-neo/p",
-        "color": null,
+        "url": "https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-motorola-edge-50-neo-5g-12-512gb-6-4-120hz-granatowy",
+        "color": "granatowy",
         "variant_label": "12/512 GB",
-        "scrape_enabled": false,
-        "status": "manual_review",
-        "notes": "URL prowadzi do oficjalnej strony Motoroli, nie do Media Expert; wymaga poprawienia store_id albo podmiany URL."
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Media Expert dla Motorola Edge 50 Neo 12/512 GB; parser aktywny."
       },
       {
         "store_id": "morele",
         "store_name": "Morele",
-        "url": "https://www.morele.net/smartfon-motorola-edge-50-neo-5g-12-512gb-kremowy-pb310011pl-14102673/",
-        "color": "kremowy",
+        "url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/",
+        "color": "brązowy",
         "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+        "notes": "Zweryfikowana karta produktu Morele dla Motorola Edge 50 Neo 12/512 GB; parser aktywny."
       },
       {
         "store_id": "rtv-euro-agd",
@@ -465,7 +475,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD dla Motorola Edge 50 Neo 12/512 GB; parser aktywny."
       }
     ]
   },
