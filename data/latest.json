@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T06:49:54.055052+00:00",
+  "generated_at": "2026-05-08T07:59:56.142386+00:00",
   "items": [
     {
       "display_order": 1,
@@ -41,14 +41,14 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 3690.82,
+      "best_price": 3699.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
       "availability": "unknown",
       "previous_price": 3690.82,
       "historical_min_price": 3690.82,
-      "historical_max_price": 3690.82,
+      "historical_max_price": 3699.0,
       "status": "ok",
       "sources_summary": [
         {
@@ -63,7 +63,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 3690.82,
+          "price": 3699.0,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
@@ -122,9 +122,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-pro-5g-12-512gb-6-67-120hz-50mpix-srebrny.bhtml"
         }
       ]
@@ -174,9 +174,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-pro-5g-12-512gb-6-67-120hz-50mpix-zielony.bhtml"
         },
         {
@@ -310,9 +310,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml"
         },
         {
@@ -344,9 +344,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-13t-8-256gb-6-67-50-mpix-niebieski.bhtml"
         },
         {
@@ -373,29 +373,29 @@
       "model_name": "Samsung Galaxy A56",
       "ram_gb": 8,
       "storage_gb": 256,
-      "best_price": 1605.4,
+      "best_price": 1600.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
       "currency": "PLN",
       "availability": "unknown",
       "previous_price": 1605.4,
-      "historical_min_price": 1605.4,
+      "historical_min_price": 1600.0,
       "historical_max_price": 1605.4,
       "status": "ok",
       "sources_summary": [
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/samsung-galaxy-a56-5g-8-256gb-6-7-120hz-50mpix-sm-a566-grafitowy.bhtml"
         },
         {
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1605.4,
+          "price": 1600.0,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/"
         },
@@ -470,9 +470,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-fioletowy.bhtml"
         },
         {
@@ -512,9 +512,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/motorola-edge-50-neo-12-512gb-6-36-120hz-50mpix-stalowy.bhtml"
         },
         {
@@ -554,9 +554,9 @@
         {
           "store_id": "rtv-euro-agd",
           "store_name": "RTV Euro AGD",
-          "status": "blocked_or_captcha",
+          "status": "product_mismatch",
           "price": null,
-          "availability": null,
+          "availability": "unknown",
           "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-5g-12-512gb-6-67-120hz-50mpix-czarny-.bhtml"
         },
         {
