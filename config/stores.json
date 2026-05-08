@@ -52,22 +52,22 @@
     "store_id": "mi-home",
     "store_name": "Mi-Home.pl",
     "source_type": "official",
-    "scrape_enabled": false,
-    "status": "manual_review"
+    "scrape_enabled": true,
+    "status": "ok"
   },
   {
     "store_id": "mi-com",
     "store_name": "Mi.com Polska",
     "source_type": "official",
-    "scrape_enabled": false,
-    "status": "requires_javascript"
+    "scrape_enabled": true,
+    "status": "ok"
   },
   {
     "store_id": "mi-store",
     "store_name": "Mi-Store.pl",
     "source_type": "official",
-    "scrape_enabled": false,
-    "status": "manual_review"
+    "scrape_enabled": true,
+    "status": "ok"
   },
   {
     "store_id": "samsung-pl",
@@ -129,14 +129,14 @@
     "store_id": "media-markt",
     "store_name": "Media Markt",
     "source_type": "retail",
-    "scrape_enabled": false,
-    "status": "manual_review"
+    "scrape_enabled": true,
+    "status": "ok"
   },
   {
     "store_id": "media-expert",
     "store_name": "Media Expert",
     "source_type": "retail",
-    "scrape_enabled": false,
-    "status": "blocked_or_unreliable"
+    "scrape_enabled": true,
+    "status": "ok"
   }
 ]

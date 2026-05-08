@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T06:17:57.014615+00:00",
+  "generated_at": "2026-05-08T06:39:07.991064+00:00",
   "items": [
     {
       "display_order": 1,
@@ -7,22 +7,33 @@
       "model_name": "POCO F8 Pro",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": null,
-      "best_store": null,
-      "best_url": null,
-      "best_color": null,
+      "best_price": 2269.34,
+      "best_store": "Morele",
+      "best_url": "https://www.morele.net/smartfon-poco-f8-pro-5g-12-512gb-czarny-15760337/",
       "currency": "PLN",
-      "availability": null,
-      "last_success_at": null,
-      "previous_price": 226934.0,
-      "price_change": null,
-      "price_change_percent": null,
-      "historical_min_price": 226934.0,
-      "historical_max_price": 226934.0,
-      "sources_checked": 2,
-      "sources_ok": 0,
-      "sources_failed": 2,
-      "status": "no_data"
+      "availability": "unknown",
+      "previous_price": null,
+      "historical_min_price": 2269.34,
+      "historical_max_price": 2269.34,
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f8-pro/"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 2269.34,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-poco-f8-pro-5g-12-512gb-czarny-15760337/"
+        }
+      ]
     },
     {
       "display_order": 2,
@@ -30,22 +41,33 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": null,
-      "best_store": null,
-      "best_url": null,
-      "best_color": null,
+      "best_price": 3690.82,
+      "best_store": "Morele",
+      "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
-      "availability": null,
-      "last_success_at": null,
-      "previous_price": 72.0,
-      "price_change": null,
-      "price_change_percent": null,
-      "historical_min_price": 72.0,
-      "historical_max_price": 72.0,
-      "sources_checked": 2,
-      "sources_ok": 0,
-      "sources_failed": 2,
-      "status": "no_data"
+      "availability": "unknown",
+      "previous_price": null,
+      "historical_min_price": 3690.82,
+      "historical_max_price": 3690.82,
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f8-ultra/"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 3690.82,
+          "availability": "unknown",
+          "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
+        }
+      ]
     },
     {
       "display_order": 3,
@@ -56,19 +78,22 @@
       "best_price": null,
       "best_store": null,
       "best_url": null,
-      "best_color": null,
       "currency": "PLN",
       "availability": null,
-      "last_success_at": null,
       "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
       "historical_min_price": null,
       "historical_max_price": null,
-      "sources_checked": 1,
-      "sources_ok": 0,
-      "sources_failed": 1,
-      "status": "no_data"
+      "status": "no_data",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f7-ultra/"
+        }
+      ]
     },
     {
       "display_order": 4,
@@ -79,19 +104,30 @@
       "best_price": null,
       "best_store": null,
       "best_url": null,
-      "best_color": null,
       "currency": "PLN",
       "availability": null,
-      "last_success_at": null,
       "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
       "historical_min_price": null,
       "historical_max_price": null,
-      "sources_checked": 2,
-      "sources_ok": 0,
-      "sources_failed": 2,
-      "status": "no_data"
+      "status": "no_data",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f7-pro/"
+        },
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-pro-5g-12-512gb-6-67-120hz-50mpix-srebrny.bhtml"
+        }
+      ]
     },
     {
       "display_order": 5,
@@ -102,19 +138,22 @@
       "best_price": null,
       "best_store": null,
       "best_url": null,
-      "best_color": null,
       "currency": "PLN",
       "availability": null,
-      "last_success_at": null,
       "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
       "historical_min_price": null,
       "historical_max_price": null,
-      "sources_checked": 1,
-      "sources_ok": 0,
-      "sources_failed": 1,
-      "status": "no_data"
+      "status": "no_data",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f7/"
+        }
+      ]
     },
     {
       "display_order": 6,
@@ -125,19 +164,30 @@
       "best_price": null,
       "best_store": null,
       "best_url": null,
-      "best_color": null,
       "currency": "PLN",
       "availability": null,
-      "last_success_at": null,
       "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
       "historical_min_price": null,
       "historical_max_price": null,
-      "sources_checked": 2,
-      "sources_ok": 0,
-      "sources_failed": 2,
-      "status": "no_data"
+      "status": "no_data",
+      "sources_summary": [
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-pro-5g-12-512gb-6-67-120hz-50mpix-zielony.bhtml"
+        },
+        {
+          "store_id": "x-kom",
+          "store_name": "x-kom",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.x-kom.pl/p/1306175-smartfon-telefon-xiaomi-poco-x7-pro-12-512gb-black.html"
+        }
+      ]
     },
     {
       "display_order": 7,
@@ -148,19 +198,22 @@
       "best_price": null,
       "best_store": null,
       "best_url": null,
-      "best_color": null,
       "currency": "PLN",
       "availability": null,
-      "last_success_at": null,
       "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
       "historical_min_price": null,
       "historical_max_price": null,
-      "sources_checked": 1,
-      "sources_ok": 0,
-      "sources_failed": 1,
-      "status": "no_data"
+      "status": "no_data",
+      "sources_summary": [
+        {
+          "store_id": "oneplus-pl",
+          "store_name": "OnePlus.com/pl",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.oneplus.com/pl/oneplus-nord-4"
+        }
+      ]
     },
     {
       "display_order": 8,
@@ -171,19 +224,30 @@
       "best_price": 2657.65,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-poco-f6-pro-5g-12-512gb-tytanowy-56581-13238541/",
-      "best_color": "tytanowy",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 2657.65,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 2657.65,
       "historical_max_price": 2657.65,
-      "sources_checked": 2,
-      "sources_ok": 1,
-      "sources_failed": 1,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 2657.65,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-poco-f6-pro-5g-12-512gb-tytanowy-56581-13238541/"
+        },
+        {
+          "store_id": "x-kom",
+          "store_name": "x-kom",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.x-kom.pl/p/1246220-smartfon-telefon-xiaomi-poco-f6-pro-12gb-512gb-white.html"
+        }
+      ]
     },
     {
       "display_order": 9,
@@ -194,19 +258,30 @@
       "best_price": 2096.88,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-poco-f6-5g-12-512gb-czarny-56299-13240073/",
-      "best_color": "czarny",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 2096.88,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 2096.88,
       "historical_max_price": 2096.88,
-      "sources_checked": 2,
-      "sources_ok": 1,
-      "sources_failed": 1,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-f6/"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 2096.88,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-poco-f6-5g-12-512gb-czarny-56299-13240073/"
+        }
+      ]
     },
     {
       "display_order": 10,
@@ -217,19 +292,38 @@
       "best_price": 1679.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-fioletowy-rmx5051-15416572/",
-      "best_color": "fioletowy",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 1679.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 1679.0,
       "historical_max_price": 1679.0,
-      "sources_checked": 3,
-      "sources_ok": 1,
-      "sources_failed": 2,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "media-expert",
+          "store_name": "Media Expert",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.realme.com/pl/realme-14-pro-plus"
+        },
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1679.0,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-fioletowy-rmx5051-15416572/"
+        }
+      ]
     },
     {
       "display_order": 11,
@@ -240,19 +334,38 @@
       "best_price": 1752.99,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-xiaomi-13t-5g-8-256gb-zielony-48520-13126946/",
-      "best_color": "zielony",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 1752.99,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 1752.99,
       "historical_max_price": 1752.99,
-      "sources_checked": 3,
-      "sources_ok": 1,
-      "sources_failed": 2,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-13t-8-256gb-6-67-50-mpix-niebieski.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1752.99,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-xiaomi-13t-5g-8-256gb-zielony-48520-13126946/"
+        },
+        {
+          "store_id": "x-kom",
+          "store_name": "x-kom",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.x-kom.pl/p/1179168-smartfon-telefon-xiaomi-13t-8-256gb-black.html"
+        }
+      ]
     },
     {
       "display_order": 12,
@@ -260,22 +373,41 @@
       "model_name": "Samsung Galaxy A56",
       "ram_gb": 8,
       "storage_gb": 256,
-      "best_price": null,
-      "best_store": null,
-      "best_url": null,
-      "best_color": null,
+      "best_price": 1605.4,
+      "best_store": "Morele",
+      "best_url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
       "currency": "PLN",
-      "availability": null,
-      "last_success_at": null,
-      "previous_price": 72.0,
-      "price_change": null,
-      "price_change_percent": null,
-      "historical_min_price": 72.0,
-      "historical_max_price": 72.0,
-      "sources_checked": 3,
-      "sources_ok": 0,
-      "sources_failed": 3,
-      "status": "no_data"
+      "availability": "unknown",
+      "previous_price": null,
+      "historical_min_price": 1605.4,
+      "historical_max_price": 1605.4,
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/samsung-galaxy-a56-5g-8-256gb-6-7-120hz-50mpix-sm-a566-grafitowy.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1605.4,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/"
+        },
+        {
+          "store_id": "samsung-pl",
+          "store_name": "Samsung.com/pl",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.samsung.com/pl/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-256gb-sm-a566bzkeeee/"
+        }
+      ]
     },
     {
       "display_order": 13,
@@ -283,22 +415,33 @@
       "model_name": "Nothing Phone (3a)",
       "ram_gb": 12,
       "storage_gb": 256,
-      "best_price": null,
-      "best_store": null,
-      "best_url": null,
-      "best_color": null,
+      "best_price": 1810.89,
+      "best_store": "Morele",
+      "best_url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/",
       "currency": "PLN",
-      "availability": null,
-      "last_success_at": null,
-      "previous_price": 181089.0,
-      "price_change": null,
-      "price_change_percent": null,
-      "historical_min_price": 181089.0,
-      "historical_max_price": 181089.0,
-      "sources_checked": 2,
-      "sources_ok": 0,
-      "sources_failed": 2,
-      "status": "no_data"
+      "availability": "unknown",
+      "previous_price": null,
+      "historical_min_price": 1810.89,
+      "historical_max_price": 1810.89,
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1810.89,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/"
+        },
+        {
+          "store_id": "nothing-pl",
+          "store_name": "Nothing.tech PL",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://nothing.tech/products/phone-3a"
+        }
+      ]
     },
     {
       "display_order": 14,
@@ -306,22 +449,41 @@
       "model_name": "Redmi Note 14 Pro+ 5G",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": null,
-      "best_store": null,
-      "best_url": null,
-      "best_color": null,
+      "best_price": 1469.0,
+      "best_store": "Morele",
+      "best_url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-mzb0i9leu-15364996/",
       "currency": "PLN",
-      "availability": null,
-      "last_success_at": null,
-      "previous_price": 72.0,
-      "price_change": null,
-      "price_change_percent": null,
-      "historical_min_price": 72.0,
-      "historical_max_price": 72.0,
-      "sources_checked": 3,
-      "sources_ok": 0,
-      "sources_failed": 3,
-      "status": "no_data"
+      "availability": "unknown",
+      "previous_price": null,
+      "historical_min_price": 1469.0,
+      "historical_max_price": 1469.0,
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/redmi-note-14-pro-plus-5g/"
+        },
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-fioletowy.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1469.0,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-mzb0i9leu-15364996/"
+        }
+      ]
     },
     {
       "display_order": 15,
@@ -332,19 +494,38 @@
       "best_price": 1144.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-motorola-edge-50-neo-5g-12-512gb-kremowy-pb310011pl-14102673/",
-      "best_color": "kremowy",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 1144.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 1144.0,
       "historical_max_price": 1144.0,
-      "sources_checked": 3,
-      "sources_ok": 1,
-      "sources_failed": 2,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "media-expert",
+          "store_name": "Media Expert",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.motorola.com/pl/smartphones-motorola-edge-50-neo/p"
+        },
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/motorola-edge-50-neo-12-512gb-6-36-120hz-50mpix-stalowy.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1144.0,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-motorola-edge-50-neo-5g-12-512gb-kremowy-pb310011pl-14102673/"
+        }
+      ]
     },
     {
       "display_order": 16,
@@ -355,19 +536,38 @@
       "best_price": 1179.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/",
-      "best_color": "zielony",
       "currency": "PLN",
-      "availability": "in_stock",
-      "last_success_at": "2026-05-08T06:17:57.014615+00:00",
+      "availability": "unknown",
       "previous_price": 1179.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
       "historical_min_price": 1179.0,
       "historical_max_price": 1179.0,
-      "sources_checked": 3,
-      "sources_ok": 1,
-      "sources_failed": 2,
-      "status": "ok"
+      "status": "ok",
+      "sources_summary": [
+        {
+          "store_id": "mi-com",
+          "store_name": "Mi.com Polska",
+          "status": "source_disabled",
+          "price": null,
+          "availability": null,
+          "url": "https://www.mi.com/pl/product/poco-x7/"
+        },
+        {
+          "store_id": "rtv-euro-agd",
+          "store_name": "RTV Euro AGD",
+          "status": "blocked_or_captcha",
+          "price": null,
+          "availability": null,
+          "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-5g-12-512gb-6-67-120hz-50mpix-czarny-.bhtml"
+        },
+        {
+          "store_id": "morele",
+          "store_name": "Morele",
+          "status": "ok",
+          "price": 1179.0,
+          "availability": "unknown",
+          "url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/"
+        }
+      ]
     }
   ]
 }
