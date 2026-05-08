@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T07:59:56.142386+00:00",
+  "generated_at": "2026-05-08T10:31:37.298387+00:00",
   "errors": [
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f8-pro-12-512",
       "model_name": "POCO F8 Pro",
       "store_id": "mi-com",
@@ -11,10 +11,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f8-ultra-16-512",
       "model_name": "POCO F8 Ultra",
       "store_id": "mi-com",
@@ -23,10 +27,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f7-ultra-16-512",
       "model_name": "POCO F7 Ultra",
       "store_id": "mi-com",
@@ -35,10 +43,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f7-pro-12-512",
       "model_name": "POCO F7 Pro",
       "store_id": "mi-com",
@@ -47,22 +59,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f7-pro-12-512",
       "model_name": "POCO F7 Pro",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-pro-5g-12-512gb-6-67-120hz-50mpix-srebrny.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f7-12-512",
       "model_name": "POCO F7",
       "store_id": "mi-com",
@@ -71,22 +91,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-x7-pro-12-512",
       "model_name": "POCO X7 Pro",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-pro-5g-12-512gb-6-67-120hz-50mpix-zielony.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-x7-pro-12-512",
       "model_name": "POCO X7 Pro",
       "store_id": "x-kom",
@@ -95,10 +123,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "x-kom",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "oneplus-nord-4-12-256",
       "model_name": "OnePlus Nord 4",
       "store_id": "oneplus-pl",
@@ -107,10 +139,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "oneplus-pl",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f6-pro-12-512",
       "model_name": "POCO F6 Pro",
       "store_id": "x-kom",
@@ -119,10 +155,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "x-kom",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-f6-12-512",
       "model_name": "POCO F6",
       "store_id": "mi-com",
@@ -131,10 +171,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
+      "model_id": "poco-f6-12-512",
+      "model_name": "POCO F6",
+      "store_id": "morele",
+      "store_name": "Morele",
+      "url": "https://www.morele.net/smartfon-poco-f6-5g-12-512gb-czarny-56299-13240073/",
+      "error_type": "product_mismatch",
+      "error_message": "product_mismatch",
+      "status": "product_mismatch",
+      "parser_name": "morele",
+      "fetch_method": "requests",
+      "http_status": 200,
+      "product_name": "Smartfon POCO F6 5G 12/512GB Czarny  (56299)",
+      "extracted_price_raw": 2096.88
+    },
+    {
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "realme-14-pro-plus-12-512",
       "model_name": "realme 14 Pro+",
       "store_id": "media-expert",
@@ -143,34 +203,62 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "media-expert",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "realme-14-pro-plus-12-512",
       "model_name": "realme 14 Pro+",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "xiaomi-13t-8-256",
       "model_name": "Xiaomi 13T",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-13t-8-256gb-6-67-50-mpix-niebieski.bhtml",
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
+    },
+    {
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
+      "model_id": "xiaomi-13t-8-256",
+      "model_name": "Xiaomi 13T",
+      "store_id": "morele",
+      "store_name": "Morele",
+      "url": "https://www.morele.net/smartfon-xiaomi-13t-5g-8-256gb-zielony-48520-13126946/",
       "error_type": "product_mismatch",
       "error_message": "product_mismatch",
       "status": "product_mismatch",
-      "scrape_enabled": true
+      "parser_name": "morele",
+      "fetch_method": "requests",
+      "http_status": 200,
+      "product_name": "Smartfon Xiaomi 13T 5G 8/256GB Zielony  (48520)",
+      "extracted_price_raw": 1752.99
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "xiaomi-13t-8-256",
       "model_name": "Xiaomi 13T",
       "store_id": "x-kom",
@@ -179,22 +267,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "x-kom",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "samsung-galaxy-a56-8-256",
       "model_name": "Samsung Galaxy A56",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/samsung-galaxy-a56-5g-8-256gb-6-7-120hz-50mpix-sm-a566-grafitowy.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "samsung-galaxy-a56-8-256",
       "model_name": "Samsung Galaxy A56",
       "store_id": "samsung-pl",
@@ -203,10 +299,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "samsung-pl",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "nothing-phone-3a-12-256",
       "model_name": "Nothing Phone (3a)",
       "store_id": "nothing-pl",
@@ -215,10 +315,14 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "nothing-pl",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "model_name": "Redmi Note 14 Pro+ 5G",
       "store_id": "mi-com",
@@ -227,22 +331,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "model_name": "Redmi Note 14 Pro+ 5G",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-fioletowy.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "motorola-edge-50-neo-12-512",
       "model_name": "Motorola Edge 50 Neo",
       "store_id": "media-expert",
@@ -251,22 +363,30 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "media-expert",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "motorola-edge-50-neo-12-512",
       "model_name": "Motorola Edge 50 Neo",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/motorola-edge-50-neo-12-512gb-6-36-120hz-50mpix-stalowy.bhtml",
-      "error_type": "product_mismatch",
-      "error_message": "product_mismatch",
-      "status": "product_mismatch",
-      "scrape_enabled": true
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-x7-12-512",
       "model_name": "POCO X7",
       "store_id": "mi-com",
@@ -275,19 +395,43 @@
       "error_type": "source_disabled",
       "error_message": "source_disabled",
       "status": "source_disabled",
-      "scrape_enabled": false
+      "parser_name": "mi-com",
+      "fetch_method": "requests",
+      "http_status": null,
+      "product_name": null,
+      "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-08T07:59:56.142386+00:00",
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
       "model_id": "poco-x7-12-512",
       "model_name": "POCO X7",
       "store_id": "rtv-euro-agd",
       "store_name": "RTV Euro AGD",
       "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-5g-12-512gb-6-67-120hz-50mpix-czarny-.bhtml",
+      "error_type": "http_403_blocked",
+      "error_message": "HTTP 403",
+      "status": "http_403_blocked",
+      "parser_name": "rtv-euro-agd",
+      "fetch_method": "requests",
+      "http_status": 403,
+      "product_name": null,
+      "extracted_price_raw": null
+    },
+    {
+      "timestamp": "2026-05-08T10:31:37.298387+00:00",
+      "model_id": "poco-x7-12-512",
+      "model_name": "POCO X7",
+      "store_id": "morele",
+      "store_name": "Morele",
+      "url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/",
       "error_type": "product_mismatch",
       "error_message": "product_mismatch",
       "status": "product_mismatch",
-      "scrape_enabled": true
+      "parser_name": "morele",
+      "fetch_method": "requests",
+      "http_status": 200,
+      "product_name": "Smartfon POCO X7 5G 12/512GB Zielony  (61061)",
+      "extracted_price_raw": 1179.0
     }
   ]
 }
