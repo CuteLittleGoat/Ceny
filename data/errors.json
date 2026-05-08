@@ -11,7 +11,7 @@
     },
     {
       "timestamp": "2026-05-07T19:55:19.211457+00:00",
-      "model_id": "poco-f8-ultra-12-512",
+      "model_id": "poco-f8-ultra-16-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f8-ultra/",
       "error_type": "manual_review",
@@ -19,7 +19,7 @@
     },
     {
       "timestamp": "2026-05-07T19:55:19.211457+00:00",
-      "model_id": "poco-f7-ultra-12-512",
+      "model_id": "poco-f7-ultra-16-512",
       "store_id": "mi-com",
       "url": "https://www.mi.com/pl/product/poco-f7-ultra/",
       "error_type": "manual_review",
