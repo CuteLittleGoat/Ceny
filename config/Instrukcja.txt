@@ -1,0 +1,591 @@
+INSTRUKCJA UZUPEŁNIANIA LINKÓW DO SKLEPÓW W REPOZYTORIUM „Ceny”
+
+GŁÓWNY PLIK DO UZUPEŁNIENIA:
+config/products.json
+
+PLIK POMOCNICZY:
+config/stores.json
+
+CEL:
+Plik config/products.json ma zawierać pełną listę monitorowanych modeli telefonów oraz listę konkretnych linków do kart produktów w sklepach. Skrypt scripts/fetch_prices.py korzysta właśnie z tego pliku, żeby wiedzieć:
+- jaki model telefonu ma sprawdzać,
+- w jakim sklepie ma szukać ceny,
+- pod jakim konkretnym adresem URL znajduje się karta produktu,
+- czy dane źródło wolno już automatycznie scrapować,
+- jaki jest status danego źródła.
+
+WAŻNE:
+W config/products.json NIE wpisujemy ręcznie cen.
+Ceny mają być pobierane automatycznie przez skrypt.
+Wpisujemy tylko modele, warianty i źródła/linki do sklepów.
+
+------------------------------------------------------------
+1. STRUKTURA PLIKU config/products.json
+------------------------------------------------------------
+
+Plik config/products.json jest tablicą JSON.
+
+Cały plik wygląda ogólnie tak:
+
+[
+  {
+    "display_order": 1,
+    "model_id": "poco-x7-pro-12-512",
+    "model_name": "POCO X7 Pro",
+    "ram_gb": 12,
+    "storage_gb": 512,
+    "colors_as_same_model": true,
+    "sources": [
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/konkretny-link-do-produktu/",
+        "color": null,
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu; parser aktywny."
+      }
+    ]
+  }
+]
+
+Każdy obiekt główny oznacza JEDEN model telefonu w konkretnym wariancie RAM/pamięć.
+
+Każdy element w "sources" oznacza JEDNO źródło, czyli jedną konkretną kartę produktu w jednym sklepie.
+
+------------------------------------------------------------
+2. POLA MODELU TELEFONU
+------------------------------------------------------------
+
+Każdy model w config/products.json musi mieć te pola:
+
+display_order
+- Liczba.
+- Określa kolejność wyświetlania na stronie.
+- Nie sortujemy modeli alfabetycznie.
+- Przykład:
+  "display_order": 6
+
+model_id
+- Techniczny identyfikator modelu.
+- Ma być krótki, unikalny, pisany małymi literami.
+- Bez polskich znaków.
+- Spacje zastępujemy myślnikami.
+- Powinien zawierać model, RAM i pamięć.
+- Przykłady:
+  "poco-x7-pro-12-512"
+  "xiaomi-13t-8-256"
+  "samsung-galaxy-a56-8-256"
+
+model_name
+- Nazwa widoczna na stronie.
+- Powinna być czytelna dla człowieka.
+- Przykłady:
+  "POCO X7 Pro"
+  "Xiaomi 13T"
+  "Samsung Galaxy A56"
+
+ram_gb
+- Liczba GB RAM.
+- Przykład:
+  "ram_gb": 12
+
+storage_gb
+- Liczba GB pamięci wewnętrznej.
+- Przykład:
+  "storage_gb": 512
+
+colors_as_same_model
+- Zwykle ustawiamy na true.
+- Oznacza, że różne kolory traktujemy jako ten sam model, jeżeli RAM i pamięć są takie same.
+- Przykład:
+  "colors_as_same_model": true
+
+sources
+- Lista linków do sklepów dla danego modelu.
+- Może zawierać jeden albo wiele sklepów.
+- Każdy sklep/link to osobny obiekt.
+
+------------------------------------------------------------
+3. POLA W sources
+------------------------------------------------------------
+
+Każdy wpis w sources musi mieć te pola:
+
+store_id
+- Techniczny identyfikator sklepu.
+- Musi być zgodny z config/stores.json.
+- Przykłady:
+  "x-kom"
+  "morele"
+  "rtv-euro-agd"
+  "komputronik"
+  "media-expert"
+  "samsung-pl"
+  "mi-com"
+  "nothing-pl"
+  "oneplus-pl"
+
+store_name
+- Nazwa sklepu widoczna dla człowieka.
+- Powinna odpowiadać store_id.
+- Przykłady:
+  "x-kom"
+  "Morele"
+  "RTV Euro AGD"
+  "Samsung.com/pl"
+  "Mi.com Polska"
+
+url
+- Pełny link do konkretnej karty produktu.
+- NIE może być linkiem do wyników wyszukiwania.
+- NIE może być linkiem do kategorii.
+- NIE może być linkiem do strony głównej producenta, jeżeli nie zawiera konkretnego wariantu produktu.
+- NIE może być linkiem do oferty operatora z abonamentem.
+- NIE powinien być linkiem do marketplace, jeżeli sprzedawcą nie jest sam sklep.
+- Dobry link prowadzi bezpośrednio do jednej karty produktu.
+- Przykład dobrego linku:
+  "https://www.morele.net/smartfon-xiaomi-poco-x7-pro-12-512gb-czarny-xxxxxxx/"
+- Przykład złego linku:
+  "https://www.morele.net/wyszukiwarka/?q=poco+x7+pro"
+
+color
+- Kolor wariantu, jeśli link prowadzi do konkretnego koloru.
+- Jeśli kolor nie ma znaczenia albo nie jest sprawdzony, wpisujemy null.
+- Przykłady:
+  "color": "black"
+  "color": "white"
+  "color": "blue"
+  "color": null
+
+variant_label
+- Czytelny opis wariantu.
+- Musi odpowiadać modelowi, którego dotyczy wpis.
+- Przykłady:
+  "12/512 GB"
+  "8/256 GB"
+
+scrape_enabled
+- true albo false.
+- true oznacza, że skrypt ma próbować automatycznie pobierać cenę z tego linku.
+- false oznacza, że link jest zapisany informacyjnie, ale skrypt ma go pominąć.
+
+Najważniejsza zasada:
+scrape_enabled: true ustawiamy TYLKO wtedy, gdy:
+1. link prowadzi do konkretnej karty produktu,
+2. wariant RAM/pamięć zgadza się z modelem,
+3. produkt nie jest wycofany,
+4. produkt ma cenę widoczną na stronie,
+5. dla sklepu istnieje parser w scripts/fetch_prices.py,
+6. źródło nie jest marketplace ani ofertą operatora,
+7. strona nie blokuje pobierania danych w GitHub Actions.
+
+Na obecnym etapie najlepiej ustawiać true przede wszystkim dla:
+- morele
+- rtv-euro-agd
+
+Ostrożnie z:
+- x-kom
+
+Powód:
+x-kom może zwracać HTTP 403 w GitHub Actions, a część znalezionych kart może być wycofana.
+
+Dla sklepów bez parsera ustawiamy:
+"scrape_enabled": false
+
+status
+- Status źródła.
+- Najczęściej używane wartości:
+
+"ok"
+Źródło sprawdzone i gotowe do scrapowania.
+Używać razem ze scrape_enabled: true.
+
+"manual_review"
+Link znaleziony, ale wymaga ręcznej kontroli albo nie ma jeszcze parsera.
+Używać razem ze scrape_enabled: false.
+
+"not_found"
+Nie znaleziono jednoznacznej karty produktu.
+Używać razem ze scrape_enabled: false.
+
+"future_or_not_yet_available"
+Produkt jeszcze nie jest dostępny albo nie ma jeszcze realnej oferty.
+Używać razem ze scrape_enabled: false.
+
+"withdrawn"
+Produkt wycofany ze sprzedaży.
+Używać razem ze scrape_enabled: false.
+
+"blocked_or_unreliable"
+Sklep blokuje pobieranie albo źródło jest niestabilne.
+Używać razem ze scrape_enabled: false.
+
+"marketplace"
+Oferta marketplace, której nie chcemy porównywać jako bezpośredniej oferty sklepu.
+Używać razem ze scrape_enabled: false.
+
+notes
+- Krótka notatka wyjaśniająca status.
+- Ma być zrozumiała dla człowieka.
+- Przykłady:
+  "Zweryfikowana karta produktu Morele; parser aktywny."
+  "Link znaleziony, ale parser dla sklepu nie jest jeszcze gotowy."
+  "Produkt wycofany ze sprzedaży."
+  "Brak jednoznacznej karty produktu dla wariantu 12/512 GB."
+  "Oferta marketplace — pominięta."
+  "Strona wymaga JavaScript albo blokuje pobieranie."
+
+------------------------------------------------------------
+4. JAKIE LINKI ZBIERAĆ
+------------------------------------------------------------
+
+Dla każdego modelu telefonu trzeba zebrać możliwie konkretne linki do sklepów.
+
+Najpierw priorytetowo zbieramy linki do sklepów, dla których parser już istnieje albo jest najłatwiejszy:
+
+1. Morele
+2. RTV Euro AGD
+3. x-kom, ale tylko jeśli produkt nie jest wycofany i link realnie działa
+4. Komputronik
+5. Media Expert
+6. oficjalne sklepy producentów, ale raczej jako manual_review, dopóki nie ma parserów
+
+Dla każdego modelu dobrze mieć docelowo kilka źródeł, np.:
+
+"sources": [
+  {
+    "store_id": "morele",
+    "store_name": "Morele",
+    "url": "https://www.morele.net/konkretny-produkt/",
+    "color": "black",
+    "variant_label": "12/512 GB",
+    "scrape_enabled": true,
+    "status": "ok",
+    "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+  },
+  {
+    "store_id": "rtv-euro-agd",
+    "store_name": "RTV Euro AGD",
+    "url": "https://www.euro.com.pl/telefony-komorkowe/konkretny-produkt.bhtml",
+    "color": null,
+    "variant_label": "12/512 GB",
+    "scrape_enabled": true,
+    "status": "ok",
+    "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+  },
+  {
+    "store_id": "x-kom",
+    "store_name": "x-kom",
+    "url": "https://www.x-kom.pl/p/xxxxxx-smartfon-telefon-xxxx.html",
+    "color": null,
+    "variant_label": "12/512 GB",
+    "scrape_enabled": false,
+    "status": "blocked_or_unreliable",
+    "notes": "Link zachowany informacyjnie; x-kom może zwracać HTTP 403 w GitHub Actions."
+  }
+]
+
+------------------------------------------------------------
+5. CZEGO NIE DODAWAĆ JAKO AKTYWNEGO ŹRÓDŁA
+------------------------------------------------------------
+
+Nie ustawiamy scrape_enabled: true dla:
+
+1. Linków do wyników wyszukiwania.
+2. Linków do kategorii.
+3. Linków do porównywarek typu Ceneo albo Skąpiec.
+4. Linków do Allegro, Amazon Marketplace albo innych marketplace, jeśli sprzedawca nie jest jednoznacznie zaufany.
+5. Ofert operatorów z abonamentem.
+6. Produktów wycofanych.
+7. Produktów bez ceny.
+8. Produktów z inną pamięcią niż monitorowana.
+9. Produktów z innym RAM-em niż monitorowany.
+10. Stron wymagających JavaScript, jeśli parser nie potrafi z nich pobrać ceny.
+11. Sklepów, dla których nie ma jeszcze parsera.
+
+Takie źródła można wpisać do sources, ale z:
+"scrape_enabled": false
+
+oraz odpowiednim:
+"status": "manual_review"
+albo:
+"status": "withdrawn"
+albo:
+"status": "blocked_or_unreliable"
+
+------------------------------------------------------------
+6. JAK SPRAWDZAĆ, CZY LINK JEST DOBRY
+------------------------------------------------------------
+
+Przed wpisaniem linku jako aktywnego trzeba ręcznie sprawdzić:
+
+1. Czy strona otwiera konkretną kartę produktu?
+2. Czy nazwa produktu zgadza się z model_name?
+3. Czy RAM zgadza się z ram_gb?
+4. Czy pamięć zgadza się ze storage_gb?
+5. Czy produkt ma widoczną cenę?
+6. Czy produkt nie jest oznaczony jako wycofany?
+7. Czy oferta nie jest ofertą operatora?
+8. Czy oferta nie jest marketplace?
+9. Czy sklep zgadza się ze store_id?
+10. Czy wariant w variant_label zgadza się z produktem?
+
+Dopiero jeśli wszystko się zgadza, można rozważyć:
+"scrape_enabled": true
+
+------------------------------------------------------------
+7. JAK TRAKTOWAĆ KOLORY
+------------------------------------------------------------
+
+W tym projekcie kolory są traktowane jako ten sam model, jeśli RAM i pamięć są identyczne.
+
+Dlatego:
+"colors_as_same_model": true
+
+Jeśli ten sam telefon 12/512 GB jest dostępny w kolorze czarnym, białym i niebieskim, można dodać kilka źródeł albo kilka linków z tym samym store_id, ale różnym color.
+
+Przykład:
+
+"sources": [
+  {
+    "store_id": "morele",
+    "store_name": "Morele",
+    "url": "https://www.morele.net/link-do-czarnego/",
+    "color": "black",
+    "variant_label": "12/512 GB",
+    "scrape_enabled": true,
+    "status": "ok",
+    "notes": "Zweryfikowana karta produktu Morele; kolor traktowany jako ten sam model."
+  },
+  {
+    "store_id": "morele",
+    "store_name": "Morele",
+    "url": "https://www.morele.net/link-do-bialego/",
+    "color": "white",
+    "variant_label": "12/512 GB",
+    "scrape_enabled": true,
+    "status": "ok",
+    "notes": "Zweryfikowana karta produktu Morele; kolor traktowany jako ten sam model."
+  }
+]
+
+Skrypt powinien potem wybrać najniższą cenę spośród dostępnych wariantów.
+
+------------------------------------------------------------
+8. JAK TRAKTOWAĆ MODELE, KTÓRYCH JESZCZE NIE MA W SPRZEDAŻY
+------------------------------------------------------------
+
+Jeśli model jest przyszły, niepewny albo jeszcze nie ma kart produktowych:
+
+"url": null
+"scrape_enabled": false
+"status": "future_or_not_yet_available"
+"notes": "Brak jednoznacznej karty produktu; model oczekuje na dostępność."
+
+Przykład:
+
+{
+  "store_id": "mi-com",
+  "store_name": "Mi.com Polska",
+  "url": null,
+  "color": null,
+  "variant_label": "12/512 GB",
+  "scrape_enabled": false,
+  "status": "future_or_not_yet_available",
+  "notes": "Brak jednoznacznej karty produktu; model oczekuje na dostępność."
+}
+
+------------------------------------------------------------
+9. JAK TRAKTOWAĆ PRODUKTY WYCOFANE
+------------------------------------------------------------
+
+Jeżeli karta produktu istnieje, ale sklep pokazuje, że produkt jest wycofany:
+
+"scrape_enabled": false
+"status": "withdrawn"
+"notes": "Produkt wycofany ze sprzedaży."
+
+Przykład:
+
+{
+  "store_id": "x-kom",
+  "store_name": "x-kom",
+  "url": "https://www.x-kom.pl/p/xxxxxx-produkt.html",
+  "color": null,
+  "variant_label": "12/512 GB",
+  "scrape_enabled": false,
+  "status": "withdrawn",
+  "notes": "Produkt wycofany ze sprzedaży; źródło pominięte."
+}
+
+------------------------------------------------------------
+10. JAK TRAKTOWAĆ SKLEPY BEZ PARSERA
+------------------------------------------------------------
+
+Jeżeli link jest dobry, ale skrypt nie ma jeszcze parsera dla danego sklepu:
+
+"scrape_enabled": false
+"status": "manual_review"
+"notes": "URL zweryfikowany ręcznie; parser dla sklepu nie jest jeszcze gotowy."
+
+Przykład:
+
+{
+  "store_id": "samsung-pl",
+  "store_name": "Samsung.com/pl",
+  "url": "https://www.samsung.com/pl/konkretny-produkt/",
+  "color": null,
+  "variant_label": "8/256 GB",
+  "scrape_enabled": false,
+  "status": "manual_review",
+  "notes": "URL zweryfikowany ręcznie; parser Samsung.com/pl nie jest jeszcze gotowy."
+}
+
+------------------------------------------------------------
+11. KOLEJNOŚĆ PRAC
+------------------------------------------------------------
+
+Najlepsza kolejność uzupełniania danych:
+
+KROK 1:
+Dla każdego modelu sprawdzić, czy obecny link nadal działa.
+
+KROK 2:
+Jeśli produkt jest wycofany, ustawić:
+"scrape_enabled": false
+"status": "withdrawn"
+
+KROK 3:
+Dla każdego modelu znaleźć przynajmniej jeden aktualny link do sklepu Morele albo RTV Euro AGD, jeśli taki produkt istnieje.
+
+KROK 4:
+Jeśli link prowadzi do poprawnego wariantu i produkt ma cenę, ustawić:
+"scrape_enabled": true
+"status": "ok"
+
+KROK 5:
+Dla sklepów bez parsera dodać linki informacyjnie, ale z:
+"scrape_enabled": false
+"status": "manual_review"
+
+KROK 6:
+Po zapisaniu pliku sprawdzić poprawność JSON.
+Najczęstsze błędy:
+- brak przecinka między obiektami,
+- dodatkowy przecinek po ostatnim elemencie,
+- brak cudzysłowu,
+- literówka w store_id,
+- użycie true/false w cudzysłowie,
+- użycie Null zamiast null.
+
+KROK 7:
+Uruchomić workflow Price Tracker ręcznie w GitHub Actions.
+
+KROK 8:
+Sprawdzić pliki:
+data/latest.json
+data/errors.json
+data/prices.csv
+
+Jeżeli wszystko działa, data/prices.csv powinien dostać pierwsze rekordy cen.
+
+------------------------------------------------------------
+12. MINIMALNY DOBRY WPIS DLA DZIAŁAJĄCEGO ŹRÓDŁA
+------------------------------------------------------------
+
+To jest przykład dobrego, aktywnego źródła:
+
+{
+  "store_id": "morele",
+  "store_name": "Morele",
+  "url": "https://www.morele.net/konkretny-link-do-produktu/",
+  "color": null,
+  "variant_label": "12/512 GB",
+  "scrape_enabled": true,
+  "status": "ok",
+  "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+}
+
+------------------------------------------------------------
+13. MINIMALNY DOBRY WPIS DLA ŹRÓDŁA DO PÓŹNIEJSZEGO SPRAWDZENIA
+------------------------------------------------------------
+
+To jest przykład dobrego źródła zapisanego informacyjnie:
+
+{
+  "store_id": "samsung-pl",
+  "store_name": "Samsung.com/pl",
+  "url": "https://www.samsung.com/pl/konkretny-link-do-produktu/",
+  "color": null,
+  "variant_label": "8/256 GB",
+  "scrape_enabled": false,
+  "status": "manual_review",
+  "notes": "URL zweryfikowany ręcznie; parser dla tego sklepu nie jest jeszcze gotowy."
+}
+
+------------------------------------------------------------
+14. MINIMALNY DOBRY WPIS DLA BRAKU ŹRÓDŁA
+------------------------------------------------------------
+
+Jeśli nie ma jeszcze sensownego linku:
+
+{
+  "store_id": "morele",
+  "store_name": "Morele",
+  "url": null,
+  "color": null,
+  "variant_label": "12/512 GB",
+  "scrape_enabled": false,
+  "status": "not_found",
+  "notes": "Brak jednoznacznej karty produktu dla tego wariantu."
+}
+
+------------------------------------------------------------
+15. LISTA MODELI DO UZUPEŁNIENIA
+------------------------------------------------------------
+
+W obecnym projekcie trzeba uzupełnić źródła dla tych modeli:
+
+1. POCO F8 Pro — 12/512 GB
+2. POCO F8 Ultra — 12/512 GB
+3. POCO F7 Ultra — 12/512 GB
+4. POCO F7 Pro — 12/512 GB
+5. POCO F7 — 12/512 GB
+6. POCO X7 Pro — 12/512 GB
+7. OnePlus Nord 4 — 12/256 GB
+8. POCO F6 Pro — 12/512 GB
+9. POCO F6 — 12/512 GB
+10. realme 14 Pro+ — 12/512 GB
+11. Xiaomi 13T — 8/256 GB
+12. Samsung Galaxy A56 — 8/256 GB
+13. Nothing Phone (3a) — 12/256 GB
+14. Redmi Note 14 Pro+ 5G — 12/512 GB
+15. Motorola Edge 50 Neo — 12/512 GB
+16. POCO X7 — 12/512 GB
+
+Dla każdego z tych modeli najlepiej docelowo mieć kilka źródeł, np.:
+- Morele
+- RTV Euro AGD
+- x-kom, jeśli działa i nie blokuje
+- Komputronik, jeśli później powstanie parser
+- Media Expert, jeśli później powstanie parser
+- oficjalny sklep producenta, jeśli później powstanie parser
+
+------------------------------------------------------------
+16. NAJWAŻNIEJSZA ZASADA
+------------------------------------------------------------
+
+Nie chodzi o to, żeby mieć jak najwięcej linków z włączonym scrape_enabled: true.
+
+Chodzi o to, żeby mieć:
+1. dużo poprawnych linków zapisanych w sources,
+2. aktywne tylko te źródła, które naprawdę da się automatycznie odczytać,
+3. jasny status dla każdego źródła,
+4. brak fałszywych cen,
+5. brak ofert operatorów,
+6. brak przypadkowych marketplace,
+7. brak produktów z innym RAM-em albo inną pamięcią.
+
+Dopiero wtedy dashboard zacznie być realną porównywarką cen, a nie tylko listą modeli.
