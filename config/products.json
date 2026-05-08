@@ -25,7 +25,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "Strona mi-home.pl wymaga weryfikacji parsera; link prowadzi do wariantu z wyborem konfiguracji."
+        "notes": "URL zachowany informacyjnie; parser dla mi-home.pl nie jest jeszcze gotowy."
       },
       {
         "store_id": "mi-com",
@@ -35,7 +35,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "Strona mi.com wymaga JavaScript; parser/antybot wymaga dodatkowej walidacji."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -55,7 +55,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "UWAGA: Wariant 12/512 GB nie wydaje się być dostępny w Polsce. Morele oferuje 12/256 GB i 16/512 GB. Wymaga weryfikacji u producenta."
+        "notes": "Brak jednoznacznej karty produktu Morele dla wariantu 12/512 GB; znalezione warianty wymagają innej konfiguracji RAM/pamięci."
       },
       {
         "store_id": "mi-com",
@@ -65,7 +65,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "Wymaga weryfikacji dostępności wariantu 12/512 GB; mi.com blokuje automatyczne pobieranie."
+        "notes": "Wymaga ręcznej weryfikacji dostępności wariantu 12/512 GB; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -85,7 +85,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "not_found",
-        "notes": "UWAGA: Wariant 12/512 GB nie wydaje się być dostępny w Polsce. Morele oferuje 12/256 GB i 16/512 GB. Wymaga weryfikacji u producenta."
+        "notes": "Brak jednoznacznej karty produktu Morele dla wariantu 12/512 GB; dostępny wariant 16/512 GB nie pasuje do monitorowanego modelu."
       },
       {
         "store_id": "mi-com",
@@ -95,7 +95,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "Wymaga weryfikacji dostępności wariantu 12/512 GB; mi.com blokuje automatyczne pobieranie."
+        "notes": "Wymaga ręcznej weryfikacji dostępności wariantu 12/512 GB; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -128,6 +128,16 @@
         "notes": "Zweryfikowana karta produktu Morele; kolor traktowany jako ten sam model."
       },
       {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-pro-5g-12-512gb-6-67-120hz-50mpix-niebieski.bhtml",
+        "color": "blue",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "withdrawn",
+        "notes": "Karta produktu RTV Euro AGD istnieje, ale sklep pokazuje, że produkt nie jest już dostępny."
+      },
+      {
         "store_id": "mi-com",
         "store_name": "Mi.com Polska",
         "url": "https://www.mi.com/pl/product/poco-f7-pro/",
@@ -135,7 +145,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; mi.com blokuje automatyczne pobieranie."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -158,6 +168,26 @@
         "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       },
       {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-poco-f7-5g-12-512gb-srebrny-6932554438050-15374299/",
+        "color": "silver",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; kolor traktowany jako ten sam model."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-12-512gb-6-83-120hz-50mpix-czarny.bhtml",
+        "color": "black",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; produkt ma widoczną cenę, ale dostępność może być ograniczona do sklepów fizycznych."
+      },
+      {
         "store_id": "mi-com",
         "store_name": "Mi.com Polska",
         "url": "https://www.mi.com/pl/product/poco-f7/",
@@ -165,7 +195,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; mi.com blokuje automatyczne pobieranie."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -235,7 +265,7 @@
         "variant_label": "12/256 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; produkt ma widoczną cenę, ale oferta może być ograniczona do sklepów fizycznych."
       },
       {
         "store_id": "oneplus-pl",
@@ -245,7 +275,7 @@
         "variant_label": "12/256 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+        "notes": "URL zachowany informacyjnie; parser dla OnePlus.com/pl nie jest jeszcze gotowy."
       }
     ]
   },
@@ -263,9 +293,9 @@
         "url": "https://www.morele.net/smartfon-poco-f6-pro-5g-12-512gb-tytanowy-56581-13238541/",
         "color": null,
         "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+        "scrape_enabled": false,
+        "status": "out_of_stock_no_price",
+        "notes": "Karta Morele istnieje, ale obecnie brak widocznej ceny i przycisku koszyka; strona pokazuje powiadomienie o dostępności."
       },
       {
         "store_id": "rtv-euro-agd",
@@ -273,9 +303,9 @@
         "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f6-pro-12-512gb-6-67-120hz-50mpix-czarny.bhtml",
         "color": "black",
         "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "scrape_enabled": false,
+        "status": "withdrawn",
+        "notes": "Karta produktu RTV Euro AGD istnieje, ale sklep pokazuje, że produkt nie jest już dostępny."
       },
       {
         "store_id": "x-kom",
@@ -303,9 +333,9 @@
         "url": "https://www.morele.net/smartfon-poco-f6-5g-12-512gb-czarny-56299-13240073/",
         "color": "black",
         "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+        "scrape_enabled": false,
+        "status": "out_of_stock_no_price",
+        "notes": "Karta Morele istnieje, ale obecnie brak widocznej ceny i przycisku koszyka; strona pokazuje powiadomienie o dostępności."
       },
       {
         "store_id": "rtv-euro-agd",
@@ -313,9 +343,9 @@
         "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f6-12-512gb-6-67-120hz-50mpix-czarny.bhtml",
         "color": "black",
         "variant_label": "12/512 GB",
-        "scrape_enabled": true,
-        "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "scrape_enabled": false,
+        "status": "withdrawn",
+        "notes": "Karta produktu RTV Euro AGD istnieje, ale sklep pokazuje, że produkt nie jest już dostępny."
       },
       {
         "store_id": "mi-com",
@@ -325,7 +355,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; mi.com blokuje automatyczne pobieranie."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -348,6 +378,26 @@
         "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       },
       {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml",
+        "color": "gray",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-fioletowy.bhtml",
+        "color": "purple",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; kolor traktowany jako ten sam model."
+      },
+      {
         "store_id": "media-expert",
         "store_name": "Media Expert",
         "url": "https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/smartfon-realme-14-pro-12-gb-512-gb-5g-czarny",
@@ -355,7 +405,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL wymaga weryfikacji; parser Media Expert jest zablokowany lub niestabilny."
+        "notes": "URL zachowany informacyjnie; parser Media Expert jest zablokowany lub niestabilny."
       }
     ]
   },
@@ -415,7 +465,7 @@
         "variant_label": "8/256 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser Samsung.com/pl nie jest jeszcze gotowy."
+        "notes": "URL zachowany informacyjnie; parser Samsung.com/pl nie jest jeszcze gotowy."
       }
     ]
   },
@@ -445,7 +495,7 @@
         "variant_label": "12/256 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+        "notes": "URL zachowany informacyjnie; parser dla Nothing.tech nie jest jeszcze gotowy."
       }
     ]
   },
@@ -475,7 +525,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; mi.com blokuje automatyczne pobieranie."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   },
@@ -505,7 +555,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "blocked_or_unreliable",
-        "notes": "URL zweryfikowany manualnie; parser Media Expert jest zablokowany lub niestabilny."
+        "notes": "URL zachowany informacyjnie; parser Media Expert jest zablokowany lub niestabilny."
       }
     ]
   },
@@ -535,7 +585,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; produkt ma widoczną cenę, ale oferta może być ograniczona do sklepów fizycznych."
       },
       {
         "store_id": "mi-com",
@@ -545,7 +595,7 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; mi.com blokuje automatyczne pobieranie."
+        "notes": "URL zachowany informacyjnie; mi.com wymaga JavaScript i nie ma gotowego parsera."
       }
     ]
   }
