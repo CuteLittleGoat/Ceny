@@ -6,6 +6,7 @@ https://cutelittlegoat.github.io/Ceny/config/stores.json
 https://cutelittlegoat.github.io/Ceny/data/errors.json
 https://cutelittlegoat.github.io/Ceny/data/latest.json
 https://cutelittlegoat.github.io/Ceny/data/prices.csv
+https://cutelittlegoat.github.io/Ceny/data/prices.json
 https://cutelittlegoat.github.io/Ceny/docs/app.js
 https://cutelittlegoat.github.io/Ceny/docs/styles.css
 https://cutelittlegoat.github.io/Ceny/index.html
