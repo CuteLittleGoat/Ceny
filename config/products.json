@@ -16,6 +16,16 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-poco-f8-pro-5g-12-512gb-czarny-15760337/",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       }
     ]
   },
@@ -36,6 +46,16 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
+        "color": "niebieski",
+        "variant_label": "16/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       }
     ]
   },
@@ -76,6 +96,16 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/poco-f7-pro-5g-12-512gb-6-67-120hz-50mpix-srebrny.bhtml",
+        "color": "srebrny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -113,9 +143,19 @@
         "url": "https://www.x-kom.pl/p/1306175-smartfon-telefon-xiaomi-poco-x7-pro-12-512gb-black.html",
         "color": null,
         "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "blocked_or_unreliable",
+        "notes": "Link zachowany informacyjnie; x-kom zwraca HTTP 403 w GitHub Actions."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-pro-5g-12-512gb-6-67-120hz-50mpix-zielony.bhtml",
+        "color": "zielony",
+        "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -153,9 +193,19 @@
         "url": "https://www.x-kom.pl/p/1246220-smartfon-telefon-xiaomi-poco-f6-pro-12gb-512gb-white.html",
         "color": null,
         "variant_label": "12/512 GB",
+        "scrape_enabled": false,
+        "status": "blocked_or_unreliable",
+        "notes": "Link zachowany informacyjnie; x-kom zwraca HTTP 403 w GitHub Actions."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-poco-f6-pro-5g-12-512gb-tytanowy-56581-13238541/",
+        "color": "tytanowy",
+        "variant_label": "12/512 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       }
     ]
   },
@@ -176,6 +226,16 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-poco-f6-5g-12-512gb-czarny-56299-13240073/",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       }
     ]
   },
@@ -195,7 +255,27 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+        "notes": "URL prowadzi do oficjalnej strony realme, nie do Media Expert; wymaga poprawienia store_id albo podmiany URL."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-fioletowy-rmx5051-15416572/",
+        "color": "fioletowy",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/realme-14-pro-5g-12-512gb-6-83-120hz-50mpix-szary.bhtml",
+        "color": "szary",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -213,9 +293,29 @@
         "url": "https://www.x-kom.pl/p/1179168-smartfon-telefon-xiaomi-13t-8-256gb-black.html",
         "color": null,
         "variant_label": "8/256 GB",
+        "scrape_enabled": false,
+        "status": "blocked_or_unreliable",
+        "notes": "Link zachowany informacyjnie; x-kom zwraca HTTP 403 w GitHub Actions."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-xiaomi-13t-5g-8-256gb-zielony-48520-13126946/",
+        "color": "zielony",
+        "variant_label": "8/256 GB",
         "scrape_enabled": true,
         "status": "ok",
-        "notes": "Zweryfikowana karta produktu x-kom; parser aktywny."
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-13t-8-256gb-6-67-50-mpix-niebieski.bhtml",
+        "color": "niebieski",
+        "variant_label": "8/256 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -236,6 +336,26 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
+        "color": "grafitowy",
+        "variant_label": "8/256 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/samsung-galaxy-a56-5g-8-256gb-6-7-120hz-50mpix-sm-a566-grafitowy.bhtml",
+        "color": "grafitowy",
+        "variant_label": "8/256 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -256,6 +376,16 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/",
+        "color": "biały",
+        "variant_label": "12/256 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
       }
     ]
   },
@@ -276,6 +406,26 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-mzb0i9leu-15364996/",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/xiaomi-redmi-note-14-pro-5g-12-512gb-6-67-120hz-108mpix-fioletowy.bhtml",
+        "color": "fioletowy",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -295,7 +445,27 @@
         "variant_label": "12/512 GB",
         "scrape_enabled": false,
         "status": "manual_review",
-        "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+        "notes": "URL prowadzi do oficjalnej strony Motoroli, nie do Media Expert; wymaga poprawienia store_id albo podmiany URL."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-motorola-edge-50-neo-5g-12-512gb-kremowy-pb310011pl-14102673/",
+        "color": "kremowy",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/motorola-edge-50-neo-12-512gb-6-36-120hz-50mpix-stalowy.bhtml",
+        "color": "stalowy",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   },
@@ -316,6 +486,26 @@
         "scrape_enabled": false,
         "status": "manual_review",
         "notes": "URL zweryfikowany manualnie; parser/antybot wymaga dodatkowej walidacji."
+      },
+      {
+        "store_id": "morele",
+        "store_name": "Morele",
+        "url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/",
+        "color": "zielony",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu Morele; parser aktywny."
+      },
+      {
+        "store_id": "rtv-euro-agd",
+        "store_name": "RTV Euro AGD",
+        "url": "https://www.euro.com.pl/telefony-komorkowe/poco-x7-5g-12-512gb-6-67-120hz-50mpix-czarny-.bhtml",
+        "color": "czarny",
+        "variant_label": "12/512 GB",
+        "scrape_enabled": true,
+        "status": "ok",
+        "notes": "Zweryfikowana karta produktu RTV Euro AGD; parser aktywny."
       }
     ]
   }
