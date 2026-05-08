@@ -3,7 +3,6 @@ const DT = new Intl.DateTimeFormat('pl-PL',{dateStyle:'medium',timeStyle:'short'
 let state = { items: [], stores: [], history: [], errors: [] };
 
 async function loadJson(path, fallback){ try { const r = await fetch(path); return r.ok ? await r.json() : fallback; } catch { return fallback; } }
-async function loadCsv(path){ try { const r=await fetch(path); if(!r.ok) return []; const t=await r.text(); const [h,...rows]=t.trim().split('\n'); if(!h||rows.length===0)return []; const cols=h.split(','); return rows.map(line=>Object.fromEntries(cols.map((c,i)=>[c,line.split(',')[i]??''])));} catch{return [];} }
 const fmtDate=v=>v?DT.format(new Date(v)):'-';
 const fmtPrice=v=>v==null?'<span class="badge no_data">Brak danych</span>':PLN.format(v);
 
@@ -33,8 +32,8 @@ function renderFilters(){ const stores=[...new Set(state.items.map(i=>i.best_sto
 function renderChart(){ const sel=document.getElementById('chart-model'); sel.innerHTML=state.items.map(i=>`<option value="${i.model_id}">${i.model_name}</option>`).join(''); const canvas=document.getElementById('history-chart'); const msg=document.getElementById('chart-empty'); if(!state.history.length){ msg.classList.remove('hidden'); return; } msg.classList.add('hidden'); const draw=()=>{ const model=sel.value; const rows=state.history.filter(r=>r.model_id===model && r.price_current); const labels=rows.map(r=>r.date); const data=rows.map(r=>Number(r.price_current)); if(window.priceChart) window.priceChart.destroy(); window.priceChart=new Chart(canvas,{type:'line',data:{labels,datasets:[{label:'Cena',data,borderColor:'#2f6fed'}]}}); }; sel.addEventListener('change',draw); draw(); }
 
 (async function(){
-  const [latest,products,stores,errors,history]=await Promise.all([loadJson('data/latest.json',{items:[]}),loadJson('config/products.json',[]),loadJson('config/stores.json',[]),loadJson('data/errors.json',{errors:[]}),loadCsv('data/prices.csv')]);
+  const [latest,products,stores,errors,pricesJson]=await Promise.all([loadJson('data/latest.json',{items:[]}),loadJson('config/products.json',[]),loadJson('config/stores.json',[]),loadJson('data/errors.json',{errors:[]}),loadJson('data/prices.json',{rows:[]})]);
   const map=Object.fromEntries(products.map(p=>[p.model_id,p]));
-  state.items=(latest.items||[]).map(i=>({...map[i.model_id],...i})); state.stores=stores; state.errors=errors.errors||[]; state.history=history;
+  state.items=(latest.items||[]).map(i=>({...map[i.model_id],...i})); state.stores=stores; state.errors=errors.errors||[]; state.history=pricesJson.rows||[];
   renderSummary(latest); renderCards(); renderFilters(); applyFilters(); renderChart();
 })();
