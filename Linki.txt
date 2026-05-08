@@ -1,0 +1,12 @@
+https://cutelittlegoat.github.io/Ceny/Linki.txt
+https://cutelittlegoat.github.io/Ceny/README.md
+https://cutelittlegoat.github.io/Ceny/config/Instrukcja.txt
+https://cutelittlegoat.github.io/Ceny/config/products.json
+https://cutelittlegoat.github.io/Ceny/config/stores.json
+https://cutelittlegoat.github.io/Ceny/data/errors.json
+https://cutelittlegoat.github.io/Ceny/data/latest.json
+https://cutelittlegoat.github.io/Ceny/data/prices.csv
+https://cutelittlegoat.github.io/Ceny/docs/app.js
+https://cutelittlegoat.github.io/Ceny/docs/styles.css
+https://cutelittlegoat.github.io/Ceny/index.html
+https://cutelittlegoat.github.io/Ceny/scripts/fetch_prices.py
