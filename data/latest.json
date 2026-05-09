@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T20:11:53.128428+00:00",
+  "generated_at": "2026-05-09T08:26:56.918674+00:00",
   "items": [
     {
       "display_order": 1,
@@ -403,7 +403,7 @@
       "model_name": "Nothing Phone (3a)",
       "ram_gb": 12,
       "storage_gb": 256,
-      "best_price": 1812.89,
+      "best_price": 1816.89,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/",
       "currency": "PLN",
@@ -414,7 +414,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1812.89,
+          "price": 1816.89,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/"
         },
