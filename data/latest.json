@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T20:02:12.010246+00:00",
+  "generated_at": "2026-05-11T10:37:56.000019+00:00",
   "items": [
     {
       "display_order": 1,
@@ -40,7 +40,7 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 3699.0,
+      "best_price": 3690.82,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
@@ -59,7 +59,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 3699.0,
+          "price": 3690.82,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
@@ -403,7 +403,7 @@
       "model_name": "Nothing Phone (3a)",
       "ram_gb": 12,
       "storage_gb": 256,
-      "best_price": 1816.89,
+      "best_price": 1959.89,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/",
       "currency": "PLN",
@@ -414,7 +414,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1816.89,
+          "price": 1959.89,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/"
         },
