@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T11:06:19.183217+00:00",
+  "generated_at": "2026-05-18T20:42:03.182805+00:00",
   "items": [
     {
       "display_order": 1,
@@ -40,7 +40,7 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 4079.0,
+      "best_price": 3893.84,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
@@ -59,7 +59,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 4079.0,
+          "price": 3893.84,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
