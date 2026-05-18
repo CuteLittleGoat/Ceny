@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T20:07:24.294440+00:00",
+  "generated_at": "2026-05-18T11:06:19.183217+00:00",
   "items": [
     {
       "display_order": 1,
@@ -40,7 +40,7 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 3690.82,
+      "best_price": 4079.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
@@ -59,7 +59,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 3690.82,
+          "price": 4079.0,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
@@ -280,7 +280,7 @@
       "model_name": "realme 14 Pro+",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 2684.29,
+      "best_price": 2686.15,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-czarny-631011004924-14754376/",
       "currency": "PLN",
@@ -307,7 +307,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 2684.29,
+          "price": 2686.15,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-czarny-631011004924-14754376/"
         }
