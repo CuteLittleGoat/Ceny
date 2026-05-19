@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T20:42:03.182805+00:00",
+  "generated_at": "2026-05-19T10:36:39.903607+00:00",
   "items": [
     {
       "display_order": 1,
@@ -362,7 +362,7 @@
       "model_name": "Samsung Galaxy A56",
       "ram_gb": 8,
       "storage_gb": 256,
-      "best_price": 1548.3,
+      "best_price": 1588.3,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
       "currency": "PLN",
@@ -381,7 +381,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1548.3,
+          "price": 1588.3,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/"
         },
@@ -485,7 +485,7 @@
       "model_name": "Motorola Edge 50 Neo",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1448.31,
+      "best_price": 1317.98,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/",
       "currency": "PLN",
@@ -512,7 +512,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1448.31,
+          "price": 1317.98,
           "availability": "unknown",
           "url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/"
         }
