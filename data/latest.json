@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T10:24:34.847029+00:00",
+  "generated_at": "2026-05-20T21:04:12.889525+00:00",
   "items": [
     {
       "display_order": 1,
@@ -40,7 +40,7 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 3893.84,
+      "best_price": 3661.53,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
@@ -59,7 +59,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 3893.84,
+          "price": 3661.53,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
@@ -362,7 +362,7 @@
       "model_name": "Samsung Galaxy A56",
       "ram_gb": 8,
       "storage_gb": 256,
-      "best_price": 1577.41,
+      "best_price": 1605.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
       "currency": "PLN",
@@ -381,7 +381,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1577.41,
+          "price": 1605.0,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/"
         },
