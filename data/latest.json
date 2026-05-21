@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T10:39:30.238923+00:00",
+  "generated_at": "2026-05-21T20:53:57.729408+00:00",
   "items": [
     {
       "display_order": 1,
@@ -403,7 +403,7 @@
       "model_name": "Nothing Phone (3a)",
       "ram_gb": 12,
       "storage_gb": 256,
-      "best_price": 1399.0,
+      "best_price": 1451.45,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/",
       "currency": "PLN",
@@ -414,7 +414,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1399.0,
+          "price": 1451.45,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-nothing-phone-3a-5g-12-256gb-bialy-a10400146-15057986/"
         },
@@ -436,7 +436,7 @@
       "model_name": "Redmi Note 14 Pro+ 5G",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1987.65,
+      "best_price": 1565.7,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/",
       "currency": "PLN",
@@ -471,7 +471,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1987.65,
+          "price": 1565.7,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/"
         }
@@ -485,7 +485,7 @@
       "model_name": "Motorola Edge 50 Neo",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1222.99,
+      "best_price": 1221.99,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/",
       "currency": "PLN",
@@ -512,7 +512,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1222.99,
+          "price": 1221.99,
           "availability": "unknown",
           "url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/"
         }
