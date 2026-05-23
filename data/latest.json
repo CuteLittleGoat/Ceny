@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T09:01:24.758220+00:00",
+  "generated_at": "2026-05-23T20:09:32.994462+00:00",
   "items": [
     {
       "display_order": 1,
@@ -485,7 +485,7 @@
       "model_name": "Motorola Edge 50 Neo",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1173.2,
+      "best_price": 1251.32,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/",
       "currency": "PLN",
@@ -512,7 +512,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1173.2,
+          "price": 1251.32,
           "availability": "unknown",
           "url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/"
         }
