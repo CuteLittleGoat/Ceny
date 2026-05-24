@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-23T20:09:32.994462+00:00",
+  "generated_at": "2026-05-24T09:21:13.186633+00:00",
   "errors": [
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f8-pro-12-512",
       "model_name": "POCO F8 Pro",
       "store_id": "mi-com",
@@ -18,7 +18,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f8-ultra-16-512",
       "model_name": "POCO F8 Ultra",
       "store_id": "mi-com",
@@ -34,7 +34,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f7-ultra-16-512",
       "model_name": "POCO F7 Ultra",
       "store_id": "mi-com",
@@ -50,7 +50,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f7-pro-12-512",
       "model_name": "POCO F7 Pro",
       "store_id": "mi-com",
@@ -66,7 +66,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f7-pro-12-512",
       "model_name": "POCO F7 Pro",
       "store_id": "rtv-euro-agd",
@@ -82,7 +82,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f7-12-512",
       "model_name": "POCO F7",
       "store_id": "mi-com",
@@ -98,7 +98,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-x7-pro-12-512",
       "model_name": "POCO X7 Pro",
       "store_id": "rtv-euro-agd",
@@ -114,7 +114,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-x7-pro-12-512",
       "model_name": "POCO X7 Pro",
       "store_id": "x-kom",
@@ -130,7 +130,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "oneplus-nord-4-12-256",
       "model_name": "OnePlus Nord 4",
       "store_id": "oneplus-pl",
@@ -146,7 +146,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f6-pro-12-512",
       "model_name": "POCO F6 Pro",
       "store_id": "x-kom",
@@ -162,7 +162,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-f6-12-512",
       "model_name": "POCO F6",
       "store_id": "mi-com",
@@ -178,7 +178,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "realme-14-pro-plus-12-512",
       "model_name": "realme 14 Pro+",
       "store_id": "media-expert",
@@ -194,7 +194,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "realme-14-pro-plus-12-512",
       "model_name": "realme 14 Pro+",
       "store_id": "rtv-euro-agd",
@@ -210,7 +210,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "xiaomi-13t-8-256",
       "model_name": "Xiaomi 13T",
       "store_id": "rtv-euro-agd",
@@ -226,7 +226,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "xiaomi-13t-8-256",
       "model_name": "Xiaomi 13T",
       "store_id": "x-kom",
@@ -242,7 +242,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "samsung-galaxy-a56-8-256",
       "model_name": "Samsung Galaxy A56",
       "store_id": "rtv-euro-agd",
@@ -258,7 +258,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "samsung-galaxy-a56-8-256",
       "model_name": "Samsung Galaxy A56",
       "store_id": "samsung-pl",
@@ -274,7 +274,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "nothing-phone-3a-12-256",
       "model_name": "Nothing Phone (3a)",
       "store_id": "nothing-pl",
@@ -290,7 +290,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "model_name": "Redmi Note 14 Pro+ 5G",
       "store_id": "mi-com",
@@ -306,7 +306,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "model_name": "Redmi Note 14 Pro+ 5G",
       "store_id": "media-expert",
@@ -322,7 +322,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "redmi-note-14-pro-plus-5g-12-512",
       "model_name": "Redmi Note 14 Pro+ 5G",
       "store_id": "rtv-euro-agd",
@@ -338,7 +338,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "motorola-edge-50-neo-12-512",
       "model_name": "Motorola Edge 50 Neo",
       "store_id": "media-expert",
@@ -354,7 +354,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "motorola-edge-50-neo-12-512",
       "model_name": "Motorola Edge 50 Neo",
       "store_id": "rtv-euro-agd",
@@ -370,7 +370,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-x7-12-512",
       "model_name": "POCO X7",
       "store_id": "mi-com",
@@ -386,7 +386,7 @@
       "extracted_price_raw": null
     },
     {
-      "timestamp": "2026-05-23T20:09:32.994462+00:00",
+      "timestamp": "2026-05-24T09:21:13.186633+00:00",
       "model_id": "poco-x7-12-512",
       "model_name": "POCO X7",
       "store_id": "rtv-euro-agd",
