@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T09:13:58.832303+00:00",
+  "generated_at": "2026-05-30T20:13:21.413500+00:00",
   "items": [
     {
       "display_order": 1,
@@ -280,7 +280,7 @@
       "model_name": "realme 14 Pro+",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1794.54,
+      "best_price": 1869.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-czarny-631011004924-14754376/",
       "currency": "PLN",
@@ -307,7 +307,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1794.54,
+          "price": 1869.0,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-realme-14-pro-5g-12-512gb-czarny-631011004924-14754376/"
         }
