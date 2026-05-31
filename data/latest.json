@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T09:46:39.400867+00:00",
+  "generated_at": "2026-05-31T20:18:03.575050+00:00",
   "items": [
     {
       "display_order": 1,
@@ -362,7 +362,7 @@
       "model_name": "Samsung Galaxy A56",
       "ram_gb": 8,
       "storage_gb": 256,
-      "best_price": 1630.0,
+      "best_price": 1626.37,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/",
       "currency": "PLN",
@@ -381,7 +381,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1630.0,
+          "price": 1626.37,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-samsung-galaxy-a56-5g-8-256gb-grafitowy-awesome-graphite-sm-a566bzk-14733596/"
         },
@@ -526,7 +526,7 @@
       "model_name": "POCO X7",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1179.0,
+      "best_price": 1153.95,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/",
       "currency": "PLN",
@@ -553,7 +553,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1179.0,
+          "price": 1153.95,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/"
         }
