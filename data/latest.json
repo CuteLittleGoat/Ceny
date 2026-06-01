@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T20:18:03.575050+00:00",
+  "generated_at": "2026-06-01T12:35:38.327689+00:00",
   "items": [
     {
       "display_order": 1,
@@ -40,7 +40,7 @@
       "model_name": "POCO F8 Ultra",
       "ram_gb": 16,
       "storage_gb": 512,
-      "best_price": 3893.84,
+      "best_price": 3655.74,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/",
       "currency": "PLN",
@@ -59,7 +59,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 3893.84,
+          "price": 3655.74,
           "availability": "unknown",
           "url": "https://www.morele.net/f8-ultra-16-512gb-denim-blue-15694484/"
         }
@@ -485,7 +485,7 @@
       "model_name": "Motorola Edge 50 Neo",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1251.84,
+      "best_price": 1273.99,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/",
       "currency": "PLN",
@@ -512,7 +512,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1251.84,
+          "price": 1273.99,
           "availability": "unknown",
           "url": "https://www.morele.net/motorola-smartfon-edge-50-neo-12-512-cosmic-14980960/"
         }
