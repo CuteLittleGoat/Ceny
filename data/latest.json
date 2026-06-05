@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T21:01:01.584201+00:00",
+  "generated_at": "2026-06-05T10:45:28.936385+00:00",
   "items": [
     {
       "display_order": 1,
@@ -436,7 +436,7 @@
       "model_name": "Redmi Note 14 Pro+ 5G",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1703.56,
+      "best_price": 1703.49,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/",
       "currency": "PLN",
@@ -471,7 +471,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1703.56,
+          "price": 1703.49,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/"
         }
@@ -526,7 +526,7 @@
       "model_name": "POCO X7",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1153.95,
+      "best_price": 1179.0,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/",
       "currency": "PLN",
@@ -553,7 +553,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1153.95,
+          "price": 1179.0,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-poco-x7-5g-12-512gb-zielony-61061-14460680/"
         }
