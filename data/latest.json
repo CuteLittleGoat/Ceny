@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:54:53.608662+00:00",
+  "generated_at": "2026-06-10T21:27:18.354148+00:00",
   "items": [
     {
       "display_order": 1,
@@ -436,7 +436,7 @@
       "model_name": "Redmi Note 14 Pro+ 5G",
       "ram_gb": 12,
       "storage_gb": 512,
-      "best_price": 1700.48,
+      "best_price": 1987.65,
       "best_store": "Morele",
       "best_url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/",
       "currency": "PLN",
@@ -471,7 +471,7 @@
           "store_id": "morele",
           "store_name": "Morele",
           "status": "ok",
-          "price": 1700.48,
+          "price": 1987.65,
           "availability": "unknown",
           "url": "https://www.morele.net/smartfon-xiaomi-redmi-note-14-pro-5g-12-512gb-czarny-60133-14492763/"
         }
